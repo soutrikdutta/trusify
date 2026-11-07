@@ -1,179 +1,161 @@
-# TRUSIFY 🛡️
-### *Is it safe to click? Know before you open any link.*
+# Trusify
+### Is it safe to click? Know before you open any link.
 
-> **Live Demo Website:** 👉 **[https://trusify.vercel.app](https://trusify.vercel.app)**  
-> **Source Code:** [https://github.com/soutrikdutta/trusify](https://github.com/soutrikdutta/trusify)
+Live Demo: [https://trusify.vercel.app](https://trusify.vercel.app)  
+Repository: [https://github.com/soutrikdutta/trusify](https://github.com/soutrikdutta/trusify)
 
----
+## Overview
 
-## 🌟 What is Trusify? (Simple Explanation)
+Have you ever received a suspicious message, email, or chat link like `paypa1-security.com` or `netflix-login-update.xyz` and wondered whether it was safe to click?
 
-Have you ever received a suspicious text message, email, or WhatsApp message with a link like `paypa1-security.com` or `netflix-login-update.xyz` and wondered: **"Is this a scam? Is it safe to click?"**
+Trusify is an automated security scanner that inspects websites and screenshots before users interact with them. Instead of presenting raw technical logs or confusing terminology, Trusify evaluates the link across multiple security layers, generates a calibrated Trust Score between 0 and 100, and provides an explanation in plain language explaining whether the site is authentic, suspicious, or malicious.
 
-**Trusify** is a smart, easy-to-use security scanner that checks any link or screenshot for you before you risk opening it. 
+## Core Capabilities
 
-Instead of showing confusing technical jargon or complicated code, Trusify gives you a **clear Trust Score from 0 to 100** and explains in **plain, simple English** whether the website is real, suspicious, or an outright scam.
+1. Instant Link Scanner: Evaluates target domains, server infrastructure, and reputation records in seconds.
+2. Screenshot Analyzer: Scans uploaded images of emails, text messages, or interfaces using OCR and vision models to identify spoofed login pages.
+3. 0 to 100 Trust Score: An intuitive, calibrated score that reflects the overall risk level of the target.
+4. Clear Threat Analysis: Powered by Google Gemini AI, offering practical guidance on why a site was flagged and recommended user actions.
+5. Flexible Access: Instant scanning for guest users with local device history, along with optional Google Sign-In for cross-device cloud synchronization.
+6. Responsive Interface: Optimized layout for desktop and mobile devices with light and dark theme support.
 
----
+## Live Demonstration
 
-## ✨ Key Features
+Access the application at [https://trusify.vercel.app](https://trusify.vercel.app)
 
-1. 🔍 **Instant Link Scanner**: Simply paste any link, and Trusify performs a deep security scan in seconds.
-2. 📸 **Screenshot Analyzer**: Upload a screenshot of a suspicious message, email, or login screen. Our AI reads the image and warns you if it is a fake login trap.
-3. 🎯 **0 to 100 Trust Score**: Get an easy-to-read score (like a school exam mark) so you immediately know if a site is trustworthy.
-4. 🤖 **Plain-English AI Explanations**: Powered by Google Gemini AI, Trusify explains *why* a link is dangerous and tells you what to do (e.g., "Do not enter your password here").
-5. 👤 **Guest & Account Modes**: Scan right away as a guest (your history is saved safely on your device) or sign in with Google to sync your scan history anywhere.
-6. 📱 **Mobile & Dark Mode Ready**: Fully responsive design with a clean, modern interface and dark mode support.
+1. Enter any link (for example, `github.com` or `chase.com`).
+2. Click "Check now".
+3. Review the forensic breakdown, certificate details, and trust rating.
 
----
-
-## 🚀 Try It Live
-
-Visit the live app: **[https://trusify.vercel.app](https://trusify.vercel.app)**
-
-1. Paste any website link (for example: `github.com` or `chase.com`).
-2. Click **Check now**.
-3. Watch Trusify analyze the website live and give you a detailed safety report!
-
----
-
-## 🏗️ Project Structure
-
-Here is how the project is organized:
+## Project Structure
 
 ```text
 trusify/
-├── client/                     # Frontend (React + Vite + Tailwind CSS)
-│   ├── public/                 # Static assets & icons (trusify-icon.svg)
+├── client/                     # Frontend Application (React, Vite, Tailwind CSS)
+│   ├── public/                 # Static assets and icons
 │   ├── src/
 │   │   ├── components/         # User interface components
-│   │   │   ├── Header.jsx               # Navigation bar & authentication modal
-│   │   │   ├── LandingPage.jsx          # Hero section, feature cards & live demo input
-│   │   │   ├── ScannerHub.jsx           # Main scanning input area (URL + Screenshot upload)
-│   │   │   ├── ScanReportBento.jsx      # Clean report cards showing results
-│   │   │   ├── ScanOverlay.jsx          # Live scanning animation overlay
-│   │   │   ├── TrustGauge.jsx           # Animated circular 0-100 score speedometer
-│   │   │   ├── HistoryView.jsx          # Past scan history (Guest local storage / Firebase)
-│   │   │   └── ThreatIntelligenceFeed.jsx # Live community threat alerts
-│   │   ├── context/            # React Contexts (AuthContext, ThemeContext)
-│   │   ├── lib/                # API helpers, Firebase setup, and local storage store
-│   │   ├── App.jsx             # Main Application routing and state
-│   │   ├── index.css           # Tailwind styling & smooth animations
-│   │   └── main.jsx            # React root entry point
+│   │   │   ├── Header.jsx               # Navigation bar and account modal
+│   │   │   ├── LandingPage.jsx          # Hero section and feature cards
+│   │   │   ├── ScannerHub.jsx           # Link and screenshot submission forms
+│   │   │   ├── ScanReportBento.jsx      # Forensic results grid
+│   │   │   ├── ScanOverlay.jsx          # Active scan progress indicator
+│   │   │   ├── TrustGauge.jsx           # Animated score gauge
+│   │   │   ├── HistoryView.jsx          # Historical scan records
+│   │   │   └── ThreatIntelligenceFeed.jsx # Threat feed and global warnings
+│   │   ├── context/            # Application contexts (Auth, Theme)
+│   │   ├── lib/                # API clients, Firebase services, local store
+│   │   ├── App.jsx             # Main routing and lifecycle management
+│   │   ├── index.css           # Styling directives and custom properties
+│   │   └── main.jsx            # React root mount
 │   ├── package.json
 │   └── vite.config.js
 │
-├── server/                     # Backend API (Node.js + Express)
+├── server/                     # Backend API Service (Node.js, Express)
 │   ├── src/
 │   │   ├── routes/
-│   │   │   └── scan.js         # Main scan endpoints (/api/scan and /api/scan-image)
-│   │   ├── services/           # The Security Inspection Engines
-│   │   │   ├── virustotal.js   # VirusTotal API integration (90+ antivirus engines)
-│   │   │   ├── safebrowsing.js # Google Safe Browsing API (malware & phishing)
-│   │   │   ├── geminiAnalyst.js# Google Gemini AI (plain English analysis & OCR)
-│   │   │   ├── tlsInspector.js # SSL/TLS certificate check (encryption & issuer)
-│   │   │   ├── dnsIntelligence.js # Domain age, MX records & IP resolution
-│   │   │   └── scoringEngine.js# Mathematical calculation of the 0-100 Trust Score
+│   │   │   └── scan.js         # Scan endpoints (/api/scan and /api/scan-image)
+│   │   ├── services/           # Forensic and Intelligence Services
+│   │   │   ├── virustotal.js   # VirusTotal v3 integration (90+ security engines)
+│   │   │   ├── safebrowsing.js # Google Safe Browsing API v4
+│   │   │   ├── geminiAnalyst.js# Google Gemini multimodal forensic analyst
+│   │   │   ├── tlsInspector.js # TLS socket inspection and certificate audit
+│   │   │   ├── dnsIntelligence.js # Domain age, MX records, and DNS resolution
+│   │   │   └── scoringEngine.js# Deterministic scoring calculation (0-100)
 │   │   ├── utils/
-│   │   │   ├── ssrf.js         # Anti-SSRF protection (blocks private IP attacks)
-│   │   │   └── urlIntelligence.js # Detects fake brand spellings (e.g. paypa1.com)
-│   │   └── index.js            # Express server initialization
+│   │   │   ├── ssrf.js         # Anti-SSRF and private network protection
+│   │   │   └── urlIntelligence.js # Brand typosquatting and homograph analysis
+│   │   └── index.js            # Express server configuration
 │   └── package.json
 │
 ├── api/
-│   └── index.js                # Serverless entry point for Vercel deployment
-├── .env.example                # Template showing required API key environment variables
-├── vercel.json                 # Vercel deployment routing configuration
+│   └── index.js                # Serverless deployment handler for Vercel
+├── .env.example                # Sample environment configuration template
+├── vercel.json                 # Vercel deployment and routing rules
 └── README.md                   # Project documentation
 ```
 
----
+## Integrated Technologies and Services
 
-## 🛠️ Technologies & Services Used
-
-| Tool / Technology | What It Does in Trusify |
+| Technology | Purpose in System |
 | :--- | :--- |
-| **React 19 & Vite** | Powers the ultra-fast, smooth frontend interface. |
-| **Tailwind CSS & Framer Motion** | Provides the modern design, floating security shield animations, and glassmorphic cards. |
-| **Node.js & Express** | Runs the backend server that securely conducts all forensic checks. |
-| **Google Gemini AI** | Reads screenshots, detects fake login forms, and writes the plain-English risk advice. |
-| **VirusTotal API v3** | Checks the link against over 90 world-leading antivirus and security databases. |
-| **Google Safe Browsing v4** | Detects active malware links, phishing attempts, and scam websites. |
-| **Node.js Crypto & TLS** | Performs a cryptographic handshake to verify that the website's SSL lock is genuine and valid. |
-| **DNS & RDAP (WHOIS)** | Checks who owns the domain, how old the website is, and whether it has real email servers. |
-| **Firebase Auth & Firestore** | Handles Google Sign-In and saves scan history to the cloud (with automatic guest device fallback). |
+| React 19 and Vite | Client frontend interface and state management |
+| Tailwind CSS and Framer Motion | Modern styling and motion components |
+| Node.js and Express | Backend API orchestration and inspection routines |
+| Google Gemini AI | Vision OCR, credential trap detection, and plain-language summaries |
+| VirusTotal API v3 | Aggregated threat assessment across 90+ antivirus databases |
+| Google Safe Browsing v4 | Threat detection for active malware, social engineering, and phishing |
+| Node.js Crypto and TLS | Raw socket handshake, certificate validity, issuer, and cipher strength |
+| DNS and RDAP | Domain registration timeline, MX mail configuration, and network ASN |
+| Firebase Auth and Firestore | Authentication and cloud synchronization for scan history |
 
----
+## Verification Workflow
 
-## 🔬 How We Verify a Link (Step-by-Step)
+When an address is submitted, the inspection engine executes the following verification pipeline:
 
-When you submit a link to Trusify, our system runs 5 automated checks in parallel:
-
+```text
+[ Target Link / Screenshot ]
+            │
+            ├── 1. SSRF and Validation Filter
+            │      Blocks private network ranges, localhost addresses, and invalid syntax.
+            │
+            ├── 2. Canonical Redirect Resolution
+            │      Expands shortened or cloaked URLs to determine the final destination host.
+            │
+            ├── 3. Threat Intelligence Retrieval
+            │      • VirusTotal API (90+ threat engines)
+            │      • Google Safe Browsing (Malware and social engineering records)
+            │
+            ├── 4. Technical Infrastructure Audit
+            │      • Domain Age: Flags disposable or newly registered domains.
+            │      • TLS/SSL Validation: Audits encryption status, expiry, and issuer authority.
+            │      • Brand Impersonation: Compares domain strings against known commercial entities.
+            │
+            └── 5. Multimodal AI Analysis
+                   Synthesizes forensic data, performs OCR on screenshots, and calculates score.
 ```
-[ Your Link / Screenshot ]
-            │
-            ├──▶ 1. Safety Guard Check: Blocks dangerous internal network addresses and invalid inputs.
-            │
-            ├──▶ 2. Redirect Unwrapper: Follows shortened links (like bit.ly) to reveal their real final destination.
-            │
-            ├──▶ 3. Security Database Checks:
-            │       • VirusTotal (90+ Antivirus engines)
-            │       • Google Safe Browsing (Malware & Phishing records)
-            │
-            ├──▶ 4. Technical Inspection:
-            │       • Domain Age: Is the site brand new (created 2 days ago)? Scams often use fresh domains.
-            │       • SSL Lock: Does it have a genuine, valid security certificate?
-            │       • Brand Imitation: Does it copy real brand names (like paypa1.com instead of paypal.com)?
-            │
-            └──▶ 5. Gemini AI Analysis:
-                    • Understands the context, explains the findings in simple words, and awards a final score!
-```
 
----
+## Scoring Methodology
 
-## 📊 How "Marks" / Trust Scores are Awarded (0 to 100)
+Every scanned destination starts with a baseline score of 100 points. Penalties are deducted based on detected risks and indicators:
 
-Every website starts with a **perfect score of 100 points**.  
-Points are deducted whenever a security warning or scam signal is found:
-
-| Detection / Issue Found | Points Deducted | Why? |
+| Forensic Indicator | Points Deducted | Risk Rationale |
 | :--- | :---: | :--- |
-| **Google Safe Browsing Flag** | **-70 points** | The site is confirmed to host active malware or phishing traps. |
-| **Flagged by 3 or more Antiviruses** | **-60 points** | Multiple global security engines agree the site is dangerous. |
-| **Flagged by 1 or 2 Antiviruses** | **-35 points** | Suspicious behavior detected by security scanners. |
-| **Fake Brand Name / Typosquatting** | **-50 points** | The link is intentionally misspelling a popular brand (like PayPal or Apple) to fool you. |
-| **Brand New Domain (Less than 14 days old)** | **-25 points** | Scammers frequently register new domains that vanish within a week. |
-| **Young Domain (14 to 90 days old)** | **-15 points** | Domain has not yet established a proven track record. |
-| **No HTTPS / Insecure Connection** | **-30 points** | Information sent to the website is not encrypted. |
-| **Expired SSL Certificate** | **-35 points** | The website's security lock has expired or is broken. |
-| **Self-Signed / Untrusted SSL** | **-40 points** | The security certificate cannot be trusted by standard browsers. |
-| **No Email (MX) Records** | **-5 points** | Legitimate companies usually have mail records; throwaway scam sites often omit them. |
-| **Excessive Redirects (> 3 hops)** | **-15 points** | Scammers use multiple redirects to hide their final trap. |
+| Google Safe Browsing Detection | -70 points | Target identified as active malware or social engineering threat |
+| VirusTotal Detection (3 or more engines) | -60 points | Strong cross-vendor consensus of malicious intent |
+| VirusTotal Detection (1 to 2 engines) | -35 points | Suspicious reputation or early threat detection |
+| Brand Impersonation or Typosquatting | -50 points | Deliberate character manipulation imitating a known entity |
+| Recent Domain Registration (< 14 days) | -25 points | Newly established domains often correlate with disposable phishing |
+| Young Domain (14 to 90 days) | -15 points | Domain has not yet established an operational history |
+| Unencrypted HTTP Protocol | -30 points | Data in transit is unencrypted and vulnerable to interception |
+| Expired TLS/SSL Certificate | -35 points | Broken or lapsed cryptographic identity |
+| Untrusted or Self-Signed Certificate | -40 points | Encryption identity cannot be verified by standard trust stores |
+| Missing Mail Exchange (MX) Records | -5 points | Domain lacks mail routing configuration |
+| Excessive Redirect Chains (> 3 hops) | -15 points | Potential evasion tactic obscuring true target |
 
-### 🏆 Score Badges:
-* 🟢 **85 – 100 (Safe)**: The website is well-established, secure, and has a clean reputation.
-* 🟡 **60 – 84 (Moderate)**: Minor concerns (such as a newer domain or recent certificate change). Proceed with normal caution.
-* 🟠 **40 – 59 (Suspicious)**: Multiple red flags detected. Do not enter personal details or passwords.
-* 🔴 **0 – 39 (Dangerous)**: Known scam, phishing site, or malware distributor. **Do not open!**
+### Rating Categories
 
----
+* 85 to 100 (Safe): Well-established domain, active TLS encryption, and clean reputation records across all engines.
+* 60 to 84 (Moderate): Minor warnings present, such as recent registration or recent certificate renewal. Proceed with awareness.
+* 40 to 59 (Suspicious): Multiple risk indicators detected. Entering credentials or downloading files is not recommended.
+* 0 to 39 (Dangerous): Confirmed malware, active phishing, or severe brand impersonation. Access should be avoided.
 
-## 💻 Local Setup & Installation
+## Local Development and Setup
 
-If you want to run Trusify on your own computer:
+To run the application locally:
 
-### 1. Clone the repository
+### 1. Clone the Repository
 ```bash
 git clone https://github.com/soutrikdutta/trusify.git
 cd trusify
 ```
 
 ### 2. Configure Environment Variables
-Create a `.env` file in the root folder (or copy from `.env.example`):
+Create a `.env` file in the project root:
 ```bash
 cp .env.example .env
 ```
-Add your free API keys in `.env`:
+Provide the required API keys:
 ```env
 PORT=5000
 GEMINI_API_KEY=your_gemini_api_key_here
@@ -181,32 +163,30 @@ VIRUSTOTAL_API_KEY=your_virustotal_api_key_here
 SAFE_BROWSING_API_KEY=your_google_safe_browsing_key_here
 ```
 
-### 3. Install Dependencies & Start
+### 3. Install Dependencies and Run
 
-**Start the Backend Server:**
+Start Backend Service:
 ```bash
 cd server
 npm install
 npm start
 ```
-*Backend runs on `http://localhost:5000`.*
 
-**Start the Frontend App:**
+Start Frontend Application:
 ```bash
 cd client
 npm install
 npm run dev
 ```
-*Frontend opens on `http://localhost:3000`.*
 
----
+The frontend will be available at `http://localhost:3000`.
 
-## 🔒 Privacy & Safety Notice
-- **Zero Secret Exposure**: Secret API keys are stored only in server environment files and are never exposed to the browser or public repository.
-- **Client Safe**: Link checking is performed on the server side so your device never makes direct contact with malicious websites during inspection.
-- **Device Storage**: Guest users have their scan history stored privately in their own browser's local storage.
+## Security and Privacy Policy
 
----
+* Secure Key Storage: All third-party API credentials remain on the server and are excluded from version control.
+* Server-Side Isolation: All target probing and network handshakes are conducted by the server, preventing direct user-to-host exposure.
+* Client-Side Privacy: Guest users maintain their scan records exclusively in local browser storage.
 
-## 📄 License
-This project is open-source and available under the **MIT License**.
+## License
+
+This project is licensed under the MIT License.
