@@ -145,7 +145,3 @@ Every scanned destination starts with a baseline score of 100 points. Penalties 
 * Secure Key Storage: All third-party API credentials remain on the server and are excluded from version control.
 * Server-Side Isolation: All target probing and network handshakes are conducted by the server, preventing direct user-to-host exposure.
 * Client-Side Privacy: Guest users maintain their scan records exclusively in local browser storage.
-
-## License
-
-This project is licensed under the MIT License.
