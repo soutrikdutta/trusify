@@ -1,1 +1,212 @@
-IyBUUlVTSUZZIPCfm6HvuI8KIyMjICpJcyBpdCBzYWZlIHRvIGNsaWNrPyBLbm93IGJlZm9yZSB5b3Ugb3BlbiBhbnkgbGluay4qCgo+ICoqTGl2ZSBEZW1vIFdlYnNpdGU6Kiog8J+RiSAqKltodHRwczovL3RydXNpZnkudmVyY2VsLmFwcF0oaHR0cHM6Ly90cnVzaWZ5LnZlcmNlbC5hcHApKiogIAo+ICoqU291cmNlIENvZGU6KiogW2h0dHBzOi8vZ2l0aHViLmNvbS9zb3V0cmlrZHV0dGEvdHJ1c2lmeV0oaHR0cHM6Ly9naXRodWIuY29tL3NvdXRyaWtkdXR0YS90cnVzaWZ5KQoKLS0tCgojIyDwn4yfIFdoYXQgaXMgVHJ1c2lmeT8gKFNpbXBsZSBFeHBsYW5hdGlvbikKCkhhdmUgeW91IGV2ZXIgcmVjZWl2ZWQgYSBzdXNwaWNpb3VzIHRleHQgbWVzc2FnZSwgZW1haWwsIG9yIFdoYXRzQXBwIG1lc3NhZ2Ugd2l0aCBhIGxpbmsgbGlrZSBgcGF5cGExLXNlY3VyaXR5LmNvbWAgb3IgYG5ldGZsaXgtbG9naW4tdXBkYXRlLnh5emAgYW5kIHdvbmRlcmVkOiAqKiJJcyB0aGlzIGEgc2NhbT8gSXMgaXQgc2FmZSB0byBjbGljaz8iKioKCioqVHJ1c2lmeSoqIGlzIGEgc21hcnQsIGVhc3ktdG8tdXNlIHNlY3VyaXR5IHNjYW5uZXIgdGhhdCBjaGVja3MgYW55IGxpbmsgb3Igc2NyZWVuc2hvdCBmb3IgeW91IGJlZm9yZSB5b3UgcmlzayBvcGVuaW5nIGl0LiAKCkluc3RlYWQgb2Ygc2hvd2luZyBjb25mdXNpbmcgdGVjaG5pY2FsIGphcmdvbiBvciBjb21wbGljYXRlZCBjb2RlLCBUcnVzaWZ5IGdpdmVzIHlvdSBhICoqY2xlYXIgVHJ1c3QgU2NvcmUgZnJvbSAwIHRvIDEwMCoqIGFuZCBleHBsYWlucyBpbiAqKnBsYWluLCBzaW1wbGUgRW5nbGlzaCoqIHdoZXRoZXIgdGhlIHdlYnNpdGUgaXMgcmVhbCwgc3VzcGljaW91cywgb3IgYW4gb3V0cmlnaHQgc2NhbS4KCi0tLQoKIyMg4pyoIEtleSBGZWF0dXJlcwoKMS4g8J+UjSAqKkluc3RhbnQgTGluayBTY2FubmVyKio6IFNpbXBseSBwYXN0ZSBhbnkgbGluaywgYW5kIFRydXNpZnkgcGVyZm9ybXMgYSBkZWVwIHNlY3VyaXR5IHNjYW4gaW4gc2Vjb25kcy4KMi4g8J+TuCAqKlNjcmVlbnNob3QgQW5hbHl6ZXIqKjogVXBsb2FkIGEgc2NyZWVuc2hvdCBvZiBhIHN1c3BpY2lvdXMgbWVzc2FnZSwgZW1haWwsIG9yIGxvZ2luIHNjcmVlbi4gT3VyIEFJIHJlYWRzIHRoZSBpbWFnZSBhbmQgd2FybnMgeW91IGlmIGl0IGlzIGEgZmFrZSBsb2dpbiB0cmFwLgozLiDwn46vICoqMCB0byAxMDAgVHJ1c3QgU2NvcmUqKjogR2V0IGFuIGVhc3ktdG8tcmVhZCBzY29yZSAobGlrZSBhIHNjaG9vbCBleGFtIG1hcmspIHNvIHlvdSBpbW1lZGlhdGVseSBrbm93IGlmIGEgc2l0ZSBpcyB0cnVzdHdvcnRoeS4KNC4g8J+kliAqKlBsYWluLUVuZ2xpc2ggQUkgRXhwbGFuYXRpb25zKio6IFBvd2VyZWQgYnkgR29vZ2xlIEdlbWluaSBBSSwgVHJ1c2lmeSBleHBsYWlucyAqd2h5KiBhIGxpbmsgaXMgZGFuZ2Vyb3VzIGFuZCB0ZWxscyB5b3Ugd2hhdCB0byBkbyAoZS5nLiwgIkRvIG5vdCBlbnRlciB5b3VyIHBhc3N3b3JkIGhlcmUiKS4KNS4g8J+RpCAqKkd1ZXN0ICYgQWNjb3VudCBNb2RlcyoqOiBTY2FuIHJpZ2h0IGF3YXkgYXMgYSBndWVzdCAoeW91ciBoaXN0b3J5IGlzIHNhdmVkIHNhZmVseSBvbiB5b3VyIGRldmljZSkgb3Igc2lnbiBpbiB3aXRoIEdvb2dsZSB0byBzeW5jIHlvdXIgc2NhbiBoaXN0b3J5IGFueXdoZXJlLgo2LiDwn5OxICoqTW9iaWxlICYgRGFyayBNb2RlIFJlYWR5Kio6IEZ1bGx5IHJlc3BvbnNpdmUgZGVzaWduIHdpdGggYSBjbGVhbiwgbW9kZXJuIGludGVyZmFjZSBhbmQgZGFyayBtb2RlIHN1cHBvcnQuCgotLS0KCiMjIPCfmoAgVHJ5IEl0IExpdmUKClZpc2l0IHRoZSBsaXZlIGFwcDogKipbaHR0cHM6Ly90cnVzaWZ5LnZlcmNlbC5hcHBdKGh0dHBzOi8vdHJ1c2lmeS52ZXJjZWwuYXBwKSoqCgoxLiBQYXN0ZSBhbnkgd2Vic2l0ZSBsaW5rIChmb3IgZXhhbXBsZTogYGdpdGh1Yi5jb21gIG9yIGBjaGFzZS5jb21gKS4KMi4gQ2xpY2sgKipDaGVjayBub3cqKi4KMy4gV2F0Y2ggVHJ1c2lmeSBhbmFseXplIHRoZSB3ZWJzaXRlIGxpdmUgYW5kIGdpdmUgeW91IGEgZGV0YWlsZWQgc2FmZXR5IHJlcG9ydCEKCi0tLQoKIyMg8J+Pl++4jyBQcm9qZWN0IFN0cnVjdHVyZQoKSGVyZSBpcyBob3cgdGhlIHByb2plY3QgaXMgb3JnYW5pemVkOgoKYGBgdGV4dAp0cnVzaWZ5LwrilJzilIDilIAgY2xpZW50LyAgICAgICAgICAgICAgICAgICAgICMgRnJvbnRlbmQgKFJlYWN0ICsgVml0ZSArIFRhaWx3aW5kIENTUykK4pSCICAg4pSc4pSA4pSAIHB1YmxpYy8gICAgICAgICAgICAgICAgICMgU3RhdGljIGFzc2V0cyAmIGljb25zICh0cnVzaWZ5LWljb24uc3ZnKQrilIIgICDilJzilIDilIAgc3JjLwrilIIgICDilIIgICDilJzilIDilIAgY29tcG9uZW50cy8gICAgICAgICAjIFVzZXIgaW50ZXJmYWNlIGNvbXBvbmVudHMK4pSCICAg4pSCICAg4pSCICAg4pSc4pSA4pSAIEhlYWRlci5qc3ggICAgICAgICAgICAgICAjIE5hdmlnYXRpb24gYmFyICYgYXV0aGVudGljYXRpb24gbW9kYWwK4pSCICAg4pSCICAg4pSCICAg4pSc4pSA4pSAIExhbmRpbmdQYWdlLmpzeCAgICAgICAgICAjIEhlcm8gc2VjdGlvbiwgZmVhdHVyZSBjYXJkcyAmIGxpdmUgZGVtbyBpbnB1dArilIIgICDilIIgICDilIIgICDilJzilIDilIAgU2Nhbm5lckh1Yi5qc3ggICAgICAgICAgICMgTWFpbiBzY2FubmluZyBpbnB1dCBhcmVhIChVUkwgKyBTY3JlZW5zaG90IHVwbG9hZCkK4pSCICAg4pSCICAg4pSCICAg4pSc4pSA4pSAIFNjYW5SZXBvcnRCZW50by5qc3ggICAgICAjIENsZWFuIHJlcG9ydCBjYXJkcyBzaG93aW5nIHJlc3VsdHMK4pSCICAg4pSCICAg4pSCICAg4pSc4pSA4pSAIFNjYW5PdmVybGF5LmpzeCAgICAgICAgICAjIExpdmUgc2Nhbm5pbmcgYW5pbWF0aW9uIG92ZXJsYXkK4pSCICAg4pSCICAg4pSCICAg4pSc4pSA4pSAIFRydXN0R2F1Z2UuanN4ICAgICAgICAgICAjIEFuaW1hdGVkIGNpcmN1bGFyIDAtMTAwIHNjb3JlIHNwZWVkb21ldGVyCuKUgiAgIOKUgiAgIOKUgiAgIOKUnOKUgOKUgCBIaXN0b3J5Vmlldy5qc3ggICAgICAgICAgIyBQYXN0IHNjYW4gaGlzdG9yeSAoR3Vlc3QgbG9jYWwgc3RvcmFnZSAvIEZpcmViYXNlKQrilIIgICDilIIgICDilIIgICDilJTilIDilIAgVGhyZWF0SW50ZWxsaWdlbmNlRmVlZC5qc3ggIyBMaXZlIGNvbW11bml0eSB0aHJlYXQgYWxlcnRzCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBjb250ZXh0LyAgICAgICAgICAgICMgUmVhY3QgQ29udGV4dHMgKEF1dGhDb250ZXh0LCBUaGVtZUNvbnRleHQpCuKUgiAgIOKUgiAgIOKUnOKUgOKUgCBsaWIvICAgICAgICAgICAgICAgICMgQVBJIGhlbHBlcnMsIEZpcmViYXNlIHNldHVwLCBhbmQgbG9jYWwgc3RvcmFnZSBzdG9yZQrilIIgICDilIIgICDilJzilIDilIAgQXBwLmpzeCAgICAgICAgICAgICAjIE1haW4gQXBwbGljYXRpb24gcm91dGluZyBhbmQgc3RhdGUK4pSCICAg4pSCICAg4pSc4pSA4pSAIGluZGV4LmNzcyAgICAgICAgICAgIyBUYWlsd2luZCBzdHlsaW5nICYgc21vb3RoIGFuaW1hdGlvbnMK4pSCICAg4pSCICAg4pSU4pSA4pSAIG1haW4uanN4ICAgICAgICAgICAgIyBSZWFjdCByb290IGVudHJ5IHBvaW50CuKUgiAg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bGFzc21vcnBoaWMgY2FyZHMuIHwKfCAqKk5vZGUuanMgJiBFeHByZXNzKiogfCBSdW5zIHRoZSBiYWNrZW5kIHNlcnZlciB0aGF0IHNlY3VyZWx5IGNvbmR1Y3RzIGFsbCBmb3JlbnNpYyBjaGVja3MuIHwKfCAqKkdvb2dsZSBHZW1pbmkgQUkqKiB8IFJlYWRzIHNjcmVlbnNob3RzLCBkZXRlY3RzIGZha2UgbG9naW4gZm9ybXMsIGFuZCB3cml0ZXMgdGhlIHBsYWluLUVuZ2xpc2ggcmlzayBhZHZpY2UuIHwKfCAqKlZpcnVzVG90YWwgQVBJIHYzKiogfCBDaGVja3MgdGhlIGxpbmsgYWdhaW5zdCBvdmVyIDkwIHdvcmxkLWxlYWRpbmcgYW50aXZpcnVzIGFuZCBzZWN1cml0eSBkYXRhYmFzZXMuIHwKfCAqKkdvb2dsZSBTYWZlIEJyb3dzaW5nIHY0KiogfCBEZXRlY3RzIGFjdGl2ZSBtYWx3YXJlIGxpbmtzLCBwaGlzaGluZyBhdHRlbXB0cywgYW5kIHNjYW0gd2Vic2l0ZXMuIHwKfCAqKk5vZGUuanMgQ3J5cHRvICYgVExTKiogfCBQZXJmb3JtcyBhIGNyeXB0b2dyYXBoaWMgaGFuZHNoYWtlIHRvIHZlcmlmeSB0aGF0IHRoZSB3ZWJzaXRlJ3MgU1NMIGxvY2sgaXMgZ2VudWluZSBhbmQgdmFsaWQuIHwKfCAqKkROUyAmIFJEQVAgKFdIT0lTKSoqIHwgQ2hlY2tzIHdobyBvd25zIHRoZSBkb21haW4sIGhvdyBvbGQgdGhlIHdlYnNpdGUgaXMsIGFuZCB3aGV0aGVyIGl0IGhhcyByZWFsIGVtYWlsIHNlcnZlcnMuIHwKfCAqKkZpcmViYXNlIEF1dGggJiBGaXJlc3RvcmUqKiB8IEhhbmRsZXMgR29vZ2xlIFNpZ24tSW4gYW5kIHNhdmVzIHNjYW4gaGlzdG9yeSB0byB0aGUgY2xvdWQgKHdpdGggYXV0b21hdGljIGd1ZXN0IGRldmljZSBmYWxsYmFjaykuIHwKCi0tLQoKIyMg8J+UlSBIb3cgV2UgVmVyaWZ5IGEgTGluayAoU3RlcC1ieS1TdGVwKQoKV2hlbiB5b3Ugc3VibWl0IGEgbGluayB0byBUcnVzaWZ5LCBvdXIgc3lzdGVtIHJ1bnMgNSBhdXRvbWF0ZWQgY2hlY2tzIGluIHBhcmFsbGVsOgoKYGBgClsgWW91ciBMaW5rIC8gU2NyZWVuc2hvdCBdCiAgICAgICAgICAgIOKUggogICAgICAgICAgICDilJzilIDilIAgMS4gU2FmZXR5IEd1YXJkIENoZWNrOiBCbG9ja3MgZGFuZ2Vyb3VzIGludGVybmFsIG5ldHdvcmsgYWRkcmVzc2VzIGFuZCBpbnZhbGlkIGlucHV0cy4KICAgICAgICAgICAg4pSCCiAgICAgICAgICAgIOKUnOKUgOKUgCAyLiBSZWRpcmVjdCBVbndyYXBwZXI6IEZvbGxvd3Mgc2hvcnRlbmVkIGxpbmtzIChsaWtlIGJpdC5seSkgdG8gcmV2ZWFsIHRoZWlyIHJlYWwgZmluYWwgZGVzdGluYXRpb24uCiAgICAgICAgICAgIOKUggogICAgICAgICAgICDilJzilIDilIAgMy4gU2VjdXJpdHkgRGF0YWJhc2UgQ2hlY2tzOgogICAgICAgICAgICDilIIgICAgICAg4oC•IFZpcnVzVG90YWwgKDkwKyBBbnRpdmlydXMgZW5naW5lcykKICAgICAgICAgICAg4pSCICAgICAgIOKCoSBHb29nbGUgU2FmZSBCcm93c2luZyAoTWFsd2FyZSAmIFBoaXNoaW5nIHJlY29yZHMpCiAgICAgICAgICAgIOKUggogICAgICAgICAgICDilJzilIDilIAgNC4gVGVjaG5pY2FsIEluc3BlY3Rpb246CiAgICAgICAgICAgIOKUgiAgICAgICDigK4gRG9tYWluIEFnZTogSXMgdGhlIHNpdGUgYnJhbmQgbmV3IChjcmVhdGVkIDIgZGF5cyBhZ28pPyBTY2FtcyBvZnRlbiB1c2UgZnJlc2ggZG9tYWlucy4KICAgICAgICAgICAg4pSCICAgICAgIOKCoSBTU0wgTG9jazogRG9lcyBpdCBoYXZlIGEgZ2VudWluZSwgdmFsaWQgc2VjdXJpdHkgY2VydGlmaWNhdGU/CiAgICAgICAgICAgIOKUgiAgICAgICDigK4gQnJhbmQgSW1pdGF0aW9uOiBEb2VzIGl0IGNvcHkgcmVhbCBicmFuZCBuYW1lcyAobGlrZSBgcGF5cGExLmNvbWAgaW5zdGVhZCBvZiBgcGF5cGFsLmNvbWApPwogICAgICAgICAgICDilIIKICAgICAgICAgICAg4pSU4pSA4pSA4pa2IDUuIEdlbWluaSBBSSBBbmFseXNpczoKICAgICAgICAgICAgICAgICAgICDigK4gVW5kZXJzdGFuZHMgdGhlIGNvbnRleHQsIGV4cGxhaW5zIHRoZSBmaW5kaW5ncyBpbiBzaW1wbGUgd29yZHMsIGFuZCBhd2FyZHMgYSBmaW5hbCBzY29yZSEKYGBgCgotLS0KCiMjIPCfk4ogSG93ICJNYXJrcyIgLyBUcnVzdCBTY29yZXMgYXJlIEF3YXJkZWQgKDAgdG8gMTAwKQoKRXZlcnkgd2Vic2l0ZSBzdGFydHMgd2l0aCBhICoqcGVyZmVjdCBzY29yZSBvZiAxMDAgcG9pbnRzKiouICAKUG9pbnRzIGFyZSBkZWR1Y3RlZCB3aGVuZXZlciBhIHNlY3VyaXR5IHdhcm5pbmcgb3Igc2NhbSBzaWduYWwgaXMgZm91bmQ6Cgp8IERldGVjdGlvbiAvIElzc3VlIEZvdW5kIHwgUG9pbnRzIERlZHVjdGVkIHwgV2h5PyB8CnwgOi0tLSB8IDotLS06IHwgOi0tLSB8CnwgKipHb29nbGUgU2FmZSBCcm93c2luZyBGbGFnKiogfCAqKi03MCBwb2ludHMqKiB8IFRoZSBzaXRlIGlzIGNvbmZpcm1lZCB0byBob3N0IGFjdGl2ZSBtYWx3YXJlIG9yIHBoaXNoaW5nIHRyYXBzLiB8CnwgKipGbGFnZ2VkIGJ5IDMgb3IgbW9yZSBBbnRpdmlydXNlcyoqIHwgKiotNjAgcG9pbnRzKiogfCBNdWx0aXBsZSBnbG9iYWwgc2VjdXJpdHkgZW5naW5lcyBhZ3JlZSB0aGUgc2l0ZSBpcyBkYW5nZXJvdXMuIHwKfCAqKkZsYWdnZWQgYnkgMSBvciAyIEFudGl2aXJ1c2VzKiogfCAqKi0zNSBwb2ludHMqKiB8IFN1c3BpY2lvdXMgYmVoYXZpb3IgZGV0ZWN0ZWQgYnkgc2VjdXJpdHkgc2Nhbm5lcnMuIHwKfCAqKkZha2UgQnJhbmQgTmFtZSAvIFR5cG9zcXVhdHRpbmcqKiB8ICoqLTUwIHBvaW50cyoqIHwgVGhlIGxpbmsgaXMgaW50ZW50aW9uYWxseSBtaXNzcGVsbGluZyBhIHBvcHVsYXIgYnJhbmQgKGxpa2UgUGF5UGFsIG9yIEFwcGxlKSB0byBmb29sIHlvdS4gfAp8ICoqQnJhbmQgTmV3IERvbWFpbiAoTGVzcyB0aGFuIDE0IGRheXMgb2xkKSoqIHwgKiotMjUgcG9pbnRzKiogfCBTY2FtbWVycyBmcmVxdWVudGx5IHJlZ2lzdGVyIG5ldyBkb21haW5zIHRoYXQgdmFuaXNoIHdpdGhpbiBhIHdlZWsuIHwKfCAqKllvdW5nIERvbWFpbiAoMTQgdG8gOTAgZGF5cyBvbGQpKiogfCAqKi0xNSBwb2ludHMqKiB8IERvbWFpbiBoYXMgbm90IHlldCBlc3RhYmxpc2hlZCBhIHByb3ZlbiB0cmFjayByZWNvcmQuIHwKfCAqKk5vIEhUVFBTIC8gSW5zZWN1cmUgQ29ubmVjdGlvbioqIHwgKiotMzAgcG9pbnRzKiogfCBJbmZvcm1hdGlvbiBzZW50IHRvIHRoZSB3ZWJzaXRlIGlzIG5vdCBlbmNyeXB0ZWQuIHwKfCAqKkV4cGlyZWQgU1NMIENlcnRpZmljYXRlKiogfCAqKi0zNSBwb2ludHMqKiB8IFRoZSB3ZWJzaXRlJ3Mgc2VjdXJpdHkgbG9jayBoYXMgZXhwaXJlZCBvciBpcyBicm9rZW4uIHwKfCAqKlNlbGYtU2lnbmVkIC8gVW50cnVzdGVkIFNTTCoqIHwgKiotNDAgcG9pbnRzKiogfCBUaGUgc2VjdXJpdHkgY2VydGlmaWNhdGUgY2Fubm90IGJlIHRydXN0ZWQgYnkgc3RhbmRhcmQgYnJvd3NlcnMuIHwKfCAqKk5vIEVtYWlsIChNWCkgUmVjb3JkcyoqIHwgKiotNSBwb2ludHMqKiB8IExlZ2l0aW1hdGUgY29tcGFuaWVzIHVzdWFsbHkgaGF2ZSBtYWlsIHJlY29yZHM7IHRocm93YXdheSBzY2FtIHNpdGVzIG9mdGVuIG9taXQgdGhlbS4gfAp8ICoqRXhjZXNzaXZlIFJlZGlyZWN0cyAoPiAzIGhvcHMpKiogfCAqKi0xNSBwb2ludHMqKiB8IFNjYW1tZXJzIHVzZSBtdWx0aXBsZSByZWRpcmVjdHMgdG8gaGlkZSB0aGVpciBmaW5hbCB0cmFwLiB8CgojIyMg8J+PhiBTY29yZSBCYWRnZXM6Ciog8J+fogoqKjg1IOKAkyAxMDAgKFNhZmUpKio6IFRoZSB3ZWJzaXRlIGlzIHdlbGwtZXN0YWJsaXNoZWQsIHNlY3VyZSwgYW5kIGhhcyBhIGNsZWFuIHJlcHV0YXRpb24uCiog8J+foSoqNjAg4KAkIDg0IChNb2RlcmF0ZSkqKjogTWlub3IgY29uY2VybnMgKHN1Y2ggYXMgYSBuZXdlciBkb21haW4gb3IgcmVjZW50IGNlcnRpZmljYXRlIGNoYW5nZSkuIFByb2NlZWQgd2l0aCBub3JtYWwgY2F1dGlvbi4KKiAg8J+goCoqNDAg4KAkIDU5IChTdXNwaWNpb3VzKSoqOiBNdWx0aXBsZSByZWQgZmxhZ3MgZGV0ZWN0ZWQuIERvIG5vdCBlbnRlciBwZXJzb25hbCBkZXRhaWxzIG9yIHBhc3N3b3Jkcy4KKiAg8J+UtCoqMCDigJMgMzkgKERhbmdlcm91cykqKjogS25vd24gc2NhbSwgcGhpc2hpbmcgc2l0ZSwgb3IgbWFsd2FyZSBkaXN0cmlidXRvci4gKipEbyBub3Qgb3BlbiEqKgoKLS0tCgojIyDwn5K7IExvY2FsIFNldHVwICYgSW5zdGFsbGF0aW9uCgpJZiB5b3Ugd2FudCB0byBydW4gVHJ1c2lmeSBvbiB5b3VyIG93biBjb21wdXRlcjoKCiMjIyAxLiBDbG9uZSB0aGUgcmVwb3NpdG9yeQpgYGBiYXNoCmdpdCBjbG9uZSBodHRwczovL2dpdGh1Yi5jb20vc291dHJpa2R1dHRhL3RydXNpZnkuZ2l0CmNkIHRydXNpZnkKYGBgCgojIyMgMi4gQ29uZmlndXJlIEVudmlyb25tZW50IFZhcmlhYmxlcwpDcmVhdGUgYSBgLmVudmAgZmlsZSBpbiB0aGUgcm9vdCBmb2xkZXIgKG9yIGNvcHkgZnJvbSBgLmVudi5leGFtcGxlYCk6CmBgYGJhc2gKY3AgLmVudi5leGFtcGxlIC5lbnYKYGBgCkFkZCB5b3VyIGZyZWUgQVBJIGtleXMgaW4gYC5lbnZgOgpgYGBlbnYKUExJVD01MDAwCkdFTUlOSV9BUElfS0VZPXlvdXJfZ2VtaW5pX2FwaV9rZXlfaGVyZQpWSVJVU1RPVEFMX0FQSV9LRVk9eW91cl92aXJ1c3RvdGFsX2FwaV9rZXlfaGVyZQpTQUZFX0JST1dTSU5HX0FQSV9LRVk9eW91cl9nb29nbGVfc2FmZV9icm93c2luZ19rZXlfaGVyZQpgYGAKCiMjIyAzLiBJbnN0YWxsIERlcGVuZGVuY2llcyAmIFN0YXJ0CgoqKlN0YXJ0IHRoZSBCYWNrZW5kIFNlcnZlcjoqKgpgYGBiYXNoCmNkIHNlcnZlcgpucG0gaW5zdGFsbApucG0gc3RhcnQKYGBgCipCYWNrZW5kIHJ1bnMgb24gYGh0dHA6Ly9sb2NhbGhvc3Q6NTAwMGAuKgoKKipTdGFydCB0aGUgRnJvbnRlbmQgQXBwOioqCmBgYGJhc2gKY2QgY2xpZW50Cm5wbSBpbnN0YWxsCm5wbSBydW4gZGV2CmBgYAoqRnJvbnRlbmQgb3BlbnMgb24gYGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMGAuKgoKLS0tCgojIyDwn5SSIFByaXZhY3kgJiBTYWZldHkgTm90aWNlCi0gKipaZXJvIFNlY3JldCBFeHBvc3VyZSoqOiBTZWNyZXQgQVBJIGtleXMgYXJlIHN0b3JlZCBvbmx5IGluIHNlcnZlciBlbnZpcm9ubWVudCBmaWxlcyBhbmQgYXJlIG5ldmVyIGV4cG9zZWQgdG8gdGhlIGJyb3dzZXIgb3IgcHVibGljIHJlcG9zaXRvcnkuCi0gKipDbGllbnQgU2FmZSoqOiBMaW5rIGNoZWNraW5nIGlzIHBlcmZvcm1lZCBvbiB0aGUgc2VydmVyIHNpZGUgc28geW91ciBkZXZpY2UgbmV2ZXIgbWFrZXMgZGlyZWN0IGNvbnRhY3Qgd2l0aCBtYWxpY2lvdXMgd2Vic2l0ZXMgZHVyaW5nIGluc3BlY3Rpb24uCi0gKipEZXZpY2UgU3RvcmFnZSoqOiBHdWVzdCB1c2VycyBoYXZlIHRoZWlyIHNjYW4gaGlzdG9yeSBzdG9yZWQgcHJpdmF0ZWx5IGluIHRoZWlyIG93biBicm93c2VyJ3MgbG9jYWwgc3RvcmFnZS4KCi0tLQoKIyMg8J+ThCBMaWNlbnNlClRoaXMgcHJvamVjdCBpcyBvcGVuLXNvdXJjZSBhbmQgYXZhaWxhYmxlIHVuZGVyIHRoZSAqKk1JVCBMaWNlbnNlKioK
+# TRUSIFY 🛡️
+### *Is it safe to click? Know before you open any link.*
+
+> **Live Demo Website:** 👉 **[https://trusify.vercel.app](https://trusify.vercel.app)**  
+> **Source Code:** [https://github.com/soutrikdutta/trusify](https://github.com/soutrikdutta/trusify)
+
+---
+
+## 🌟 What is Trusify? (Simple Explanation)
+
+Have you ever received a suspicious text message, email, or WhatsApp message with a link like `paypa1-security.com` or `netflix-login-update.xyz` and wondered: **"Is this a scam? Is it safe to click?"**
+
+**Trusify** is a smart, easy-to-use security scanner that checks any link or screenshot for you before you risk opening it. 
+
+Instead of showing confusing technical jargon or complicated code, Trusify gives you a **clear Trust Score from 0 to 100** and explains in **plain, simple English** whether the website is real, suspicious, or an outright scam.
+
+---
+
+## ✨ Key Features
+
+1. 🔍 **Instant Link Scanner**: Simply paste any link, and Trusify performs a deep security scan in seconds.
+2. 📸 **Screenshot Analyzer**: Upload a screenshot of a suspicious message, email, or login screen. Our AI reads the image and warns you if it is a fake login trap.
+3. 🎯 **0 to 100 Trust Score**: Get an easy-to-read score (like a school exam mark) so you immediately know if a site is trustworthy.
+4. 🤖 **Plain-English AI Explanations**: Powered by Google Gemini AI, Trusify explains *why* a link is dangerous and tells you what to do (e.g., "Do not enter your password here").
+5. 👤 **Guest & Account Modes**: Scan right away as a guest (your history is saved safely on your device) or sign in with Google to sync your scan history anywhere.
+6. 📱 **Mobile & Dark Mode Ready**: Fully responsive design with a clean, modern interface and dark mode support.
+
+---
+
+## 🚀 Try It Live
+
+Visit the live app: **[https://trusify.vercel.app](https://trusify.vercel.app)**
+
+1. Paste any website link (for example: `github.com` or `chase.com`).
+2. Click **Check now**.
+3. Watch Trusify analyze the website live and give you a detailed safety report!
+
+---
+
+## 🏗️ Project Structure
+
+Here is how the project is organized:
+
+```text
+trusify/
+├── client/                     # Frontend (React + Vite + Tailwind CSS)
+│   ├── public/                 # Static assets & icons (trusify-icon.svg)
+│   ├── src/
+│   │   ├── components/         # User interface components
+│   │   │   ├── Header.jsx               # Navigation bar & authentication modal
+│   │   │   ├── LandingPage.jsx          # Hero section, feature cards & live demo input
+│   │   │   ├── ScannerHub.jsx           # Main scanning input area (URL + Screenshot upload)
+│   │   │   ├── ScanReportBento.jsx      # Clean report cards showing results
+│   │   │   ├── ScanOverlay.jsx          # Live scanning animation overlay
+│   │   │   ├── TrustGauge.jsx           # Animated circular 0-100 score speedometer
+│   │   │   ├── HistoryView.jsx          # Past scan history (Guest local storage / Firebase)
+│   │   │   └── ThreatIntelligenceFeed.jsx # Live community threat alerts
+│   │   ├── context/            # React Contexts (AuthContext, ThemeContext)
+│   │   ├── lib/                # API helpers, Firebase setup, and local storage store
+│   │   ├── App.jsx             # Main Application routing and state
+│   │   ├── index.css           # Tailwind styling & smooth animations
+│   │   └── main.jsx            # React root entry point
+│   ├── package.json
+│   └── vite.config.js
+│
+├── server/                     # Backend API (Node.js + Express)
+│   ├── src/
+│   │   ├── routes/
+│   │   │   └── scan.js         # Main scan endpoints (/api/scan and /api/scan-image)
+│   │   ├── services/           # The Security Inspection Engines
+│   │   │   ├── virustotal.js   # VirusTotal API integration (90+ antivirus engines)
+│   │   │   ├── safebrowsing.js # Google Safe Browsing API (malware & phishing)
+│   │   │   ├── geminiAnalyst.js# Google Gemini AI (plain English analysis & OCR)
+│   │   │   ├── tlsInspector.js # SSL/TLS certificate check (encryption & issuer)
+│   │   │   ├── dnsIntelligence.js # Domain age, MX records & IP resolution
+│   │   │   └── scoringEngine.js# Mathematical calculation of the 0-100 Trust Score
+│   │   ├── utils/
+│   │   │   ├── ssrf.js         # Anti-SSRF protection (blocks private IP attacks)
+│   │   │   └── urlIntelligence.js # Detects fake brand spellings (e.g. paypa1.com)
+│   │   └── index.js            # Express server initialization
+│   └── package.json
+│
+├── api/
+│   └── index.js                # Serverless entry point for Vercel deployment
+├── .env.example                # Template showing required API key environment variables
+├── vercel.json                 # Vercel deployment routing configuration
+└── README.md                   # Project documentation
+```
+
+---
+
+## 🛠️ Technologies & Services Used
+
+| Tool / Technology | What It Does in Trusify |
+| :--- | :--- |
+| **React 19 & Vite** | Powers the ultra-fast, smooth frontend interface. |
+| **Tailwind CSS & Framer Motion** | Provides the modern design, floating security shield animations, and glassmorphic cards. |
+| **Node.js & Express** | Runs the backend server that securely conducts all forensic checks. |
+| **Google Gemini AI** | Reads screenshots, detects fake login forms, and writes the plain-English risk advice. |
+| **VirusTotal API v3** | Checks the link against over 90 world-leading antivirus and security databases. |
+| **Google Safe Browsing v4** | Detects active malware links, phishing attempts, and scam websites. |
+| **Node.js Crypto & TLS** | Performs a cryptographic handshake to verify that the website's SSL lock is genuine and valid. |
+| **DNS & RDAP (WHOIS)** | Checks who owns the domain, how old the website is, and whether it has real email servers. |
+| **Firebase Auth & Firestore** | Handles Google Sign-In and saves scan history to the cloud (with automatic guest device fallback). |
+
+---
+
+## 🔬 How We Verify a Link (Step-by-Step)
+
+When you submit a link to Trusify, our system runs 5 automated checks in parallel:
+
+```
+[ Your Link / Screenshot ]
+            │
+            ├──▶ 1. Safety Guard Check: Blocks dangerous internal network addresses and invalid inputs.
+            │
+            ├──▶ 2. Redirect Unwrapper: Follows shortened links (like bit.ly) to reveal their real final destination.
+            │
+            ├──▶ 3. Security Database Checks:
+            │       • VirusTotal (90+ Antivirus engines)
+            │       • Google Safe Browsing (Malware & Phishing records)
+            │
+            ├──▶ 4. Technical Inspection:
+            │       • Domain Age: Is the site brand new (created 2 days ago)? Scams often use fresh domains.
+            │       • SSL Lock: Does it have a genuine, valid security certificate?
+            │       • Brand Imitation: Does it copy real brand names (like paypa1.com instead of paypal.com)?
+            │
+            └──▶ 5. Gemini AI Analysis:
+                    • Understands the context, explains the findings in simple words, and awards a final score!
+```
+
+---
+
+## 📊 How "Marks" / Trust Scores are Awarded (0 to 100)
+
+Every website starts with a **perfect score of 100 points**.  
+Points are deducted whenever a security warning or scam signal is found:
+
+| Detection / Issue Found | Points Deducted | Why? |
+| :--- | :---: | :--- |
+| **Google Safe Browsing Flag** | **-70 points** | The site is confirmed to host active malware or phishing traps. |
+| **Flagged by 3 or more Antiviruses** | **-60 points** | Multiple global security engines agree the site is dangerous. |
+| **Flagged by 1 or 2 Antiviruses** | **-35 points** | Suspicious behavior detected by security scanners. |
+| **Fake Brand Name / Typosquatting** | **-50 points** | The link is intentionally misspelling a popular brand (like PayPal or Apple) to fool you. |
+| **Brand New Domain (Less than 14 days old)** | **-25 points** | Scammers frequently register new domains that vanish within a week. |
+| **Young Domain (14 to 90 days old)** | **-15 points** | Domain has not yet established a proven track record. |
+| **No HTTPS / Insecure Connection** | **-30 points** | Information sent to the website is not encrypted. |
+| **Expired SSL Certificate** | **-35 points** | The website's security lock has expired or is broken. |
+| **Self-Signed / Untrusted SSL** | **-40 points** | The security certificate cannot be trusted by standard browsers. |
+| **No Email (MX) Records** | **-5 points** | Legitimate companies usually have mail records; throwaway scam sites often omit them. |
+| **Excessive Redirects (> 3 hops)** | **-15 points** | Scammers use multiple redirects to hide their final trap. |
+
+### 🏆 Score Badges:
+* 🟢 **85 – 100 (Safe)**: The website is well-established, secure, and has a clean reputation.
+* 🟡 **60 – 84 (Moderate)**: Minor concerns (such as a newer domain or recent certificate change). Proceed with normal caution.
+* 🟠 **40 – 59 (Suspicious)**: Multiple red flags detected. Do not enter personal details or passwords.
+* 🔴 **0 – 39 (Dangerous)**: Known scam, phishing site, or malware distributor. **Do not open!**
+
+---
+
+## 💻 Local Setup & Installation
+
+If you want to run Trusify on your own computer:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/soutrikdutta/trusify.git
+cd trusify
+```
+
+### 2. Configure Environment Variables
+Create a `.env` file in the root folder (or copy from `.env.example`):
+```bash
+cp .env.example .env
+```
+Add your free API keys in `.env`:
+```env
+PORT=5000
+GEMINI_API_KEY=your_gemini_api_key_here
+VIRUSTOTAL_API_KEY=your_virustotal_api_key_here
+SAFE_BROWSING_API_KEY=your_google_safe_browsing_key_here
+```
+
+### 3. Install Dependencies & Start
+
+**Start the Backend Server:**
+```bash
+cd server
+npm install
+npm start
+```
+*Backend runs on `http://localhost:5000`.*
+
+**Start the Frontend App:**
+```bash
+cd client
+npm install
+npm run dev
+```
+*Frontend opens on `http://localhost:3000`.*
+
+---
+
+## 🔒 Privacy & Safety Notice
+- **Zero Secret Exposure**: Secret API keys are stored only in server environment files and are never exposed to the browser or public repository.
+- **Client Safe**: Link checking is performed on the server side so your device never makes direct contact with malicious websites during inspection.
+- **Device Storage**: Guest users have their scan history stored privately in their own browser's local storage.
+
+---
+
+## 📄 License
+This project is open-source and available under the **MIT License**.
