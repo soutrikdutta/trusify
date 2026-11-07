@@ -1,1 +1,193 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBtb3Rpb24gfSBmcm9tICdmcmFtZXItbW90aW9uJzsKaW1wb3J0IHsgQXJyb3dSaWdodCwgTG9hZGVyMiwgVXNlckNoZWNrLCBTaGllbGRDaGVjaywgTGFwdG9wIH0gZnJvbSAnbHVjaWRlLXJlYWN0JzsKaW1wb3J0IHsgdXNlQXV0aCB9IGZyb20gJy4uL2NvbnRleHQvQXV0aENvbnRleHQnOwppbXBvcnQgeyBmYWRlVXAsIHN0YWdnZXIgfSBmcm9tICcuL3VpJzsKCmZ1bmN0aW9uIEdvb2dsZUljb24oeyBjbGFzc05hbWUgPSAndy01IGgtNScgfSkgewogIHJldHVybiAoCiAgICA8c3ZnIGNsYXNzTmFtZT17Y2xhc3NOYW1lfSB2aWV3Qm94PSIwIDAgMjQgMjQiPgogICAgICA8cGF0aAogICAgICAgIGZpbGw9IiM0Mjg1RjQiCiAgICAgICAgZD0iTTIyLjU2IDEyLjI1YzAtLjc4LS4wNy0xLjUzLS4yLTIuMjVIMTJ2NC4yNmg1LjkyYy0uMjYgMS4zNy0xLjA0IDIuNTMtMi4yMSAzLjMxdjIuNzdoMy41N2MyLjA4LTEuOTIgMy4yOC00Ljc0IDMuMjgtOC4wOXoiCiAgICAgIC8+CiAgICAgIDxwYXRoCiAgICAgICAgZmlsbD0iIzM0QTg1MyIKICAgICAgICBkPSJNMTIgMjNjMi45NyAwIDUuNDYtLjk4IDcuMjgtMi42NmwtMy41Ny0yLjc3Yy0uOTguNjYtMi4yMyAxLjA2LTMuNzEgMS4wNi0yLjg2IDAtNS4yOS0xLjkzLTYuMTYtNC41M0gyLjE4djIuODRDMy45OSAyMC41MyA3LjcgMjMgMTIgMjN6IgogICAgICAvPgogICAgICA8cGF0aAogICAgICAgIGZpbGw9IiNGQkJDMDUiCiAgICAgICAgZD0iTTUuODQgMTQuMDljLS4yMi0uNjYtLjM1LTEuMzYtLjM1LTIuMDlzLjEzLTEuNDMuMzUtMi4wOVY3LjA2SDIuMThDMS40MyA4LjU1IDEgMTAuMjIgMSAxMnMuNDMgMy40NSAxLjE4IDQuOTRsMi44NS0yLjIyLjgxLS42M3oiCiAgICAgIC8+CiAgICAgIDxwYXRoCiAgICAgICAgZmlsbD0iI0VBNDMzNSIKICAgICAgICBkPSJNMTIgNS4zOGMxLjYyIDAgMy4wNi41NiA0LjIxIDEuNjRsMy4xNS0zLjE1QzE3LjQ1IDIuMDkgMTQuOTcgMSAxMiAxIDcuNyAxIDMuOTkgMy40NyAyLjE4IDcuMDZsMy42NiAyLjg0Yy44Ny0yLjYgMy4zLTQuNTIgNi4xNi00LjUyeiIKICAgICAgLz4KICAgIDwvc3ZnPgogICk7Cn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIExhbmRpbmdQYWdlKHsgb25Db250aW51ZUd1ZXN0LCBvblNpZ25lZEluU3VjY2VzcyB9KSB7CiAgY29uc3QgeyB1c2VyLCBsb2dpbldpdGhHb29nbGUgfSA9IHVzZUF1dGgoKTsKICBjb25zdCBbc2lnbmluZ0luLCBzZXRTaWduaW5nSW5dID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFthdXRoRXJyb3IsIHNldEF1dGhFcnJvcl0gPSB1c2VTdGF0ZShudWxsKTsKCiAgY29uc3QgaGFuZGxlR29vZ2xlU2lnbkluID0gYXN5bmMgKCkgPT4gewogICAgc2V0U2lnbmluZ0luKHRydWUpOwogICAgc2V0QXV0aEVycm9yKG51bGwpOwogICAgdHJ5IHsKICAgICAgY29uc3QgbG9nZ2VkVXNlciA9IGF3YWl0IGxvZ2luV2l0aEdvb2dsZSgpOwogICAgICBpZiAobG9nZ2VkVXNlcikgewogICAgICAgIG9uU2lnbmVkSW5TdWNjZXNzPy4obG9nZ2VkVXNlcik7CiAgICAgIH0KICAgIH0gY2F0Y2ggKGVycikgewogICAgICBjb25zb2xlLmVycm9yKCdHb29nbGUgU2lnbi1pbiBmYWlsZWQ6JywgZXJyKTsKICAgICAgaWYgKGVycj8uY29kZSAhPT0gJ2F1dGgvcG9wdXAtY2xvc2VkLWJ5LXVzZXInKSB7CiAgICAgICAgc2V0QXV0aEVycm9yKGVycj8ubWVzc2FnZSB8fCAnQ291bGQgbm90IGNvbXBsZXRlIEdvb2dsZSBzaWduLWluLiBQbGVhc2UgdHJ5IGFnYWluLicpOwogICAgICB9CiAgICAgIH0gZmluYWxseSB7CiAgICAgIHNldFNpZ25pbmdJbihmYWxzZSk7CiAgICB9CiAgfTsKCiAgcmV0dXJuICgKICAgIDxtb3Rpb24uZGl2CiAgICAgIHZhcmlhbnRzPXtzdGFnZ2VyfQogICAgICBpbml0aWFsPSJoaWRkZW4iCiAgICAgIGFuaW1hdGU9InNob3ciCiAgICAgIGNsYXNzTmFtZT0ibXgtYXV0byBtYXgtdy0zeGwgcHgtNCBweS02IHNtOnB5LTEyIHNwYWNlLXktOCBmbGV4IGZsZXgtY29sIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBtaW4taC1bNjh2aF0iCiAgICA+CiAgICAgIHsvKiBIZXJvIEhlYWRlciAqL30KICAgICAgPG1vdGlvbi5kaXYgdmFyaWFudHM9e2ZhZGVVcH0gY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBzcGFjZS15LTMuNSBtYXgtdy0yeGwiPgogICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtNHhsIHNtOnRleHQtNXhsIGxnOnRleHQtNnhsIGZvbnQtYmxhY2sgdHJhY2tpbmctdGlnaHQgdGV4dC1zbGF0ZS05MDAgZGFyazp0ZXh0LXdoaXRlIGxlYWRpbmctWzEuMV0iPgogICAgICAgICAgSXMgdGhhdCBsaW5reydgJ30KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC10cmFuc3BhcmVudCBiZy1jbGlwLXRleHQgYmctZ3JhZGllbnQtdG8tciBmcm9tLWJsdWUtNTAwIHZpYS1pbmRpZ28tNTAwIHRvLWN5YW4tNDAwIj4KICAgICAgICAgICAgcmVhbGx5IHNhZmUKICAgICAgICAgIDwvc3Bhbj57JyAnfQogICAgICAgICAgdG8gY2xpY2s/CiAgICAgICAgPC9oMT4KCiAgICAgICAgPHAgY2xhc3NOYW1lPSJteC1hdXRvIG1heC13LXhsIHRleHQtc20gc206dGV4dC1iYXNlIHRleHQtc2xhdGUtNjAwIGRhcms6dGV4dC1zbGF0ZS0zMDAgbGVhZGluZy1yZWxheGVkIGZvbnQtbm9ybWFsIj4KICAgICAgICAgIENoZWNrIGFueSBsaW5rIGJlZm9yZSBvcGVuaW5nIGl0LiBXZSBydW4gbGl2ZSBmb3JlbnNpYyBjaGVja3MgYWNyb3NzIDkwKyB0aHJlYXQgZGF0YWJhc2VzLCBkZWNvZGUgZGlzZ3Vpc2VkIHJlZGlyZWN0cywgYW5kIGV4cGxhaW4gdGhlIHZlcmRpY3QgaW4gc2ltcGxlIEVuZ2xpc2guCiAgICAgICAgPC9wPgogICAgICA8L21vdGlvbi5kaXY+CgoKICAgICAgey8qIE1haW4gU2lnbi1JbiBDYXJkIChpT1MgLyBBcHBsZSBHbGFzcyBBZXN0aGV0aWMpICovfQogICAgICA8bW90aW9uLmRpdgogICAgICAgIHZhcmlhbnRzPXtmYWRlVXB9CiAgICAgICAgY2xhc3NOYW1lPSJnbGFzcyBnbGFzcy1zaGluZSByZWxhdGl2ZSB3LWZ1bGwgbWF4LXctbWQgb3ZlcmZsb3ctaGlkZGVuIHJvdW5kZWQtWzMycHhdIHAtNyBzbTpwLTkgc2hhZG93LTJ4bCBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMC85MCBkYXJrOmJvcmRlci13aGl0ZS8xMCIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoYWlybGluZSIgLz4KCgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYgdGV4dC1jZW50ZXIiPgogICAgICAgICAgey8qIExvZ28gQmFkZ2UgKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwLTMgcm91bmRlZC0yeGwgYmctd2hpdGUvODAgZGFyazpiZy1zbGF0ZS05MDAvODAgYm9yZGVyIGJvcmRlci1ibHVlLTUwMC8yMCBzaGFkb3ctbWQiPgogICAgICAgICAgICAgIDxpbWcgc3JjPSIvdHJ1c2lmeS1pY29uLnN2ZyIgYWx0PSJUcnVzaWZ5IiBjbGFzc05hbWU9InctMTIgaC0xMiBvYmplY3QtY29udGFpbiBzZWxlY3Qtbm9uZSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KCgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMS41Ij4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ibGFjayB0ZXh0LXNsYXRlLTkwMCBkYXJrOnRleHQtd2hpdGUgdHJhY2tpbmctdGlnaHQiPgogICAgICAgICAgICAgIFdlbGNvbWUgdG8gVHJ1c2lmeQogICAgICAgICAgICA8L2gyPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1zbGF0ZS01MDAgZGFyazp0ZXh0LXNsYXRlLTQwMCI+CiAgICAgICAgICAgICAgQ2hvb3NlIGhvdyB5b3Ugd291bGQgbGlrZSB0byBnZXQgc3RhcnRlZCB0b2RheQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KCgogICAgICAgICAge2F1dGhFcnJvciAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwLTMgcm91bmRlZC14bCBiZy1yb3NlLTUwMC8xMCBib3JkZXIgYm9yZGVyLXJvc2UtNTAwLzIwIHRleHQtcm9zZS02MDAgZGFyazp0ZXh0LXJvc2UtNDAwIHRleHQteHMiPgogICAgICAgICAgICAgIHthdXRoRXJyb3J9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KCgogICAgICAgICAge3VzZXIgPyAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMyBwLTMgcm91bmRlZC0yeGwgYmctc2xhdGUtMTAwIGRhcms6Ymctd2hpdGUvNSBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBkYXJrOmJvcmRlci13aGl0ZS8xMCI+CiAgICAgICAgICAgICAgICB7dXNlci5waG90b1VSTCA/ICgKICAgICAgICAgICAgICAgICAgPGltZyAKICAgICAgICAgICAgICAgICAgICBzcmM9e3VzZXIucGhvdG9VUkw7IH0KICAgICAgICAgICAgICAgICAgICBhbHQ9e3VzZXIuZGlzcGxheU5hbWV9IAogICAgICAgICAgICAgICAgICAgIHJlZmVycmVyUG9saWN5PSJuby1yZWZlcnJlciIKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctMTAgaC0xMCByb3VuZGVkLWZ1bGwgb2JqZWN0LWNvdmVyIHJpbmctMiByaW5nLWJsdWUtNTAwLzQwIiAKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LTEwIGgtMTAgcm91bmRlZC1mdWxsIGJnLWJsdWUtNTAwIHRleHQtd2hpdGUgZm9udC1ib2xkIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHRleHQtc20iPgogICAgICAgICAgICAgICAgICAgIHt1c2VyLmVtYWlsPy5bMF0/LnRvVXBwZXJDYXNlKCkgfHwgJ1UnfQogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1sZWZ0IHRleHQteHMgdHJ1bmNhdGUiPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtc2xhdGUtOTAwIGRhcms6dGV4dC13aGl0ZSB0cnVuY2F0ZSI+e3VzZXIuZGlzcGxheU5hbWUgfHwgJ0dvb2dsZSBVc2VyJ308L2Rpdj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtc2xhdGUtNTAwIGRhcms6dGV4dC1zbGF0ZS00MDAgdGV4dC1bMTFweF0gZm9udC1tb25vIHRydW5jYXRlIj57dXNlci5lbWFpbH08L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBvblNpZ25lZEluU3VjY2Vzcz8uKHVzZXIpfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcm91bmRlZC0yeGwgcHktNCBweC02IHRleHQtc20gZm9udC1ib2xkIGJnLXdoaXRlIHRleHQtc2xhdGUtOTAwIHNoYWRvdy1tZCBob3ZlcjpzaGFkb3ctbGcgaG92ZXI6Ymctc2xhdGUtNTAgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAvOTAgZGFyazpib3JkZXItd2hpdGUvMjAgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tYWxsIGN1cnNvci1wb2ludGVyIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxzcGFuPk9wZW4gRGFzaGJvYXJkPC9zcGFuPgogICAgICAgICAgICAgICAgPEFycm93UmlnaHQgY2xhc3NOYW1lPSJ3LTQgaC00IiAvPgogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICkgOiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMuNSI+CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgb25DbGljaz17aGFuZGxlR29vZ2xlU2lnbklufQogICAgICAgICAgICAgICAgZGlzYWJsZWQ9e3NpZ25pbmdJbn0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGdhcC0zIHJvdW5kZWQtMnhsIHB5LTQgcHgtNiB0ZXh0LXNtIGZvbnQtYm9sZCBiZy13aGl0ZSB0ZXh0LXNsYXRlLTkwMCBzaGFkb3ctbWQgaG92ZXI6c2hhZG93LWxnIGhvdmVyOmJnLXNsYXRlLTUwIGJvcmRlciBib3JkZXItc2xhdGUtMjAwLzkwIGRhcms6Ym9yZGVyLXdoaXRlLzIwIGFjdGl2ZTpzY2FsZS05NSB0cmFuc2l0aW9uLWFsbCBjdXJzb3ItcG9pbnRlciBkaXNhYmxlZDpvcGFjaXR5LTYwIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHtzaWduaW5nSW4gPyAoCiAgICAgICAgICAgICAgICAgIDxMb2FkZXIyIGNsYXNzTmFtZT0idy01IGgtNSBhbmltYXRlLXNwaW4gdGV4dC1zbGF0ZS05MDAiIC8+CiAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICA8R29vZ2xlSWNvbiBjbGFzc05hbWU9InctNSBoLTUgc2hyaW5rLTAiIC8+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPHNwYW4+e3NpZ25pbmdJbiA/ICdTaWduaW5nIGluIHdpdGggR29vZ2xlLi4uJyA6ICdDb250aW51ZSB3aXRoIEdvb2dsZSd9PC9zcGFuPgogICAgICAgICAgICAgIDwvYnV0dG9uPgoKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgZmxleCBweS0xIGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleC1ncm93IGJvcmRlci10IGJvcmRlci1zbGF0ZS0yMDAgZGFyazpib3JkZXItd2hpdGUvMTAiIC8+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZsZXgtc2hyaW5rIG14LTMgdGV4dC1bMTFweF0gZm9udC1tZWRpdW0gdGV4dC1zbGF0ZS00MDAgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIj5vcjwvc3Bhbj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LWdyb3cgYm9yZGVyLXQgYm9yZGVyLXNsYXRlLTIwMCBkYXJrOmJvcmRlci13aGl0ZS8xMCIgLz4KICAgICAgICAgICAgICA8L2Rpdj4KCgogICAgICAgICAgICAgIHsvKiBDb250aW51ZSB3aXRoIEd1ZXN0IEFjY291bnQgKi99CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgb25DbGljaz17b25Db250aW51ZUd1ZXN0fQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIuNSByb3VuZGVkLTJ4bCBweS0zLjUgcHgtNiB0ZXh0LXhzIHNtOnRleHQtc20gZm9udC1zZW1pYm9sZCBiZy1zbGF0ZS0xMDAgaG92ZXI6Ymctc2xhdGUtMjAwLzgwIGRhcms6Ymctd2hpdGUvNSBkYXJrOmhvdmVyOmJnLXdoaXRlLzEwIHRleHQtc2xhdGUtODAwIGRhcms6dGV4dC1zbGF0ZS0yMDAgYm9yZGVyIGJvcmRlci1zbGF0ZS0yMDAvODAgZGFyazpib3JkZXItd2hpdGUvMTAgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tYWxsIGN1cnNvci1wb2ludGVyIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxVc2VyQ2hlY2sgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtZW1lcmFsZC01MDAiIC8+CiAgICAgICAgICAgICAgICA8c3Bhbj5Db250aW51ZSBhcyBHdWVzdDwvc3Bhbj4KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAKICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzExcHhdIHRleHQtc2xhdGUtNDAwIGRhcms6dGV4dC1zbGF0ZS01MDAgbGVhZGluZy10aWdodCI+CiAgICAgICAgICAgICAgICBHdWVzdCBzY2FuIGhpc3RvcnkgaXMgc2FmZWx5IGtlcHQgb24gdGhpcyBkZXZpY2Ugb25seS4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9tb3Rpb24uZGl2PgogICAgPC9tb3Rpb24uZGl2PgogICk7Cn0K
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
+import { ArrowRight, Loader2, UserCheck, ShieldCheck, Zap, Lock } from 'lucide-react';
+import { useAuth } from '../context/AuthContext';
+import { fadeUp, stagger } from './ui';
+
+function GoogleIcon({ className = 'w-4 h-4' }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24">
+      <path
+        fill="#4285F4"
+        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+      />
+      <path
+        fill="#34A853"
+        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+      />
+      <path
+        fill="#FBBC05"
+        d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
+      />
+      <path
+        fill="#EA4335"
+        d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
+      />
+    </svg>
+  );
+}
+
+export default function LandingPage({ onContinueGuest, onSignedInSuccess }) {
+  const { user, loginWithGoogle } = useAuth();
+  const [signingIn, setSigningIn] = useState(false);
+  const [authError, setAuthError] = useState(null);
+
+  const handleGoogleSignIn = async () => {
+    setSigningIn(true);
+    setAuthError(null);
+    try {
+      const loggedUser = await loginWithGoogle();
+      if (loggedUser) {
+        onSignedInSuccess?.(loggedUser);
+      }
+    } catch (err) {
+      console.error('Google Sign-in failed:', err);
+      if (err?.code !== 'auth/popup-closed-by-user') {
+        setAuthError(err?.message || 'Could not complete Google sign-in. Please try again.');
+      }
+    } finally {
+      setSigningIn(false);
+    }
+  };
+
+  return (
+    <motion.div
+      variants={stagger}
+      initial="hidden"
+      animate="show"
+      className="mx-auto w-full max-w-6xl px-4 py-6 sm:py-10 md:py-14 flex flex-col justify-center min-h-[calc(100dvh-100px)]"
+    >
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 xl:gap-16 items-center">
+        {/* Left Column: Heading & Value Prop */}
+        <motion.div variants={fadeUp} className="md:col-span-7 text-center md:text-left space-y-4 sm:space-y-6">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-600 dark:text-blue-400 text-xs sm:text-[13px] font-semibold">
+            <ShieldCheck className="w-4 h-4" />
+            <span>Live Forensic Link & Phishing Protection</span>
+          </div>
+
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-slate-900 dark:text-white leading-[1.12]">
+            Is that link{' '}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-500 to-cyan-400">
+              really safe
+            </span>{' '}
+            to click?
+          </h1>
+
+          <p className="max-w-xl mx-auto md:mx-0 text-sm sm:text-base md:text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
+            Check any link or message screenshot before you risk opening it. We run live forensic checks across 90+ threat databases, unmask cloaked redirects, and explain risks in simple English.
+          </p>
+
+          <div className="pt-2 flex flex-wrap items-center justify-center md:justify-start gap-4 sm:gap-6 text-xs sm:text-sm font-medium text-slate-500 dark:text-slate-400">
+            <div className="flex items-center gap-1.5">
+              <Zap className="w-4 h-4 text-amber-500" />
+              <span>Instant AI Verification</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <Lock className="w-4 h-4 text-emerald-500" />
+              <span>Zero Tracking Privacy</span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              <ShieldCheck className="w-4 h-4 text-blue-500" />
+              <span>Client-Safe Isolation</span>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* Right Column: Sign In & Guest Box */}
+        <motion.div variants={fadeUp} className="md:col-span-5 flex justify-center">
+          <div className="glass glass-shine relative w-full max-w-sm sm:max-w-md overflow-hidden rounded-3xl p-6 sm:p-8 shadow-2xl border border-slate-200/90 dark:border-white/10">
+            <div className="hairline" />
+
+            <div className="space-y-4 sm:space-y-5 text-center">
+              {/* App Icon */}
+              <div className="flex justify-center">
+                <img src="/trusify-icon.svg" alt="Trusify" className="w-12 h-12 sm:w-14 sm:h-14 object-contain select-none drop-shadow-md" />
+              </div>
+
+              <div className="space-y-1">
+                <h2 className="text-xl sm:text-2xl font-black text-slate-900 dark:text-white tracking-tight uppercase font-sans">
+                  TRUSIFY
+                </h2>
+                <p className="text-xs sm:text-sm font-semibold text-slate-500 dark:text-slate-400">
+                  Safe and Trustified
+                </p>
+              </div>
+
+              {authError && (
+                <div className="p-3 rounded-xl bg-rose-500/10 border border-rose-500/30 text-xs text-rose-600 dark:text-rose-400 text-left">
+                  {authError}
+                </div>
+              )}
+
+              {user ? (
+                <div className="space-y-3">
+                  <div className="flex items-center justify-center gap-3 p-3 rounded-2xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10">
+                    {user.photoURL ? (
+                      <img 
+                        src={user.photoURL} 
+                        alt={user.displayName} 
+                        referrerPolicy="no-referrer"
+                        className="w-9 h-9 rounded-full object-cover ring-2 ring-blue-500/40" 
+                      />
+                    ) : (
+                      <div className="w-9 h-9 rounded-full bg-blue-500 text-white font-bold flex items-center justify-center text-sm">
+                        {user.email?.[0]?.toUpperCase() || 'U'}
+                      </div>
+                    )}
+                    <div className="text-left text-xs truncate">
+                      <div className="font-bold text-slate-900 dark:text-white truncate">{user.displayName || 'Google User'}</div>
+                      <div className="text-slate-500 dark:text-slate-400 text-[11px] font-mono truncate">{user.email}</div>
+                    </div>
+                  </div>
+
+                  <button
+                    onClick={() => onSignedInSuccess?.(user)}
+                    className="w-full flex items-center justify-center gap-2 rounded-2xl py-3.5 px-5 text-sm font-bold bg-white text-slate-900 shadow-md hover:shadow-lg hover:bg-slate-50 border border-slate-200/90 dark:border-white/20 active:scale-95 transition-all cursor-pointer"
+                  >
+                    <span>Open Dashboard</span>
+                    <ArrowRight className="w-4 h-4" />
+                  </button>
+                </div>
+              ) : (
+                <div className="space-y-3 sm:space-y-3.5">
+                  {/* Continue with Google */}
+                  <button
+                    onClick={handleGoogleSignIn}
+                    disabled={signingIn}
+                    className="w-full flex items-center justify-center gap-2.5 rounded-2xl py-3.5 px-5 text-sm font-bold bg-white text-slate-900 shadow-sm hover:shadow-md hover:bg-slate-50 border border-slate-200/90 dark:border-white/20 active:scale-95 transition-all cursor-pointer disabled:opacity-60"
+                  >
+                    {signingIn ? (
+                      <Loader2 className="w-4 h-4 animate-spin text-slate-900" />
+                    ) : (
+                      <GoogleIcon className="w-4 h-4 shrink-0" />
+                    )}
+                    <span>{signingIn ? 'Signing in...' : 'Continue with Google'}</span>
+                  </button>
+
+                  <div className="relative flex py-1 items-center">
+                    <div className="flex-grow border-t border-slate-200 dark:border-white/10" />
+                    <span className="flex-shrink mx-3 text-[11px] font-medium text-slate-400 uppercase tracking-wider">or</span>
+                    <div className="flex-grow border-t border-slate-200 dark:border-white/10" />
+                  </div>
+
+                  {/* Continue with Guest Account */}
+                  <button
+                    onClick={onContinueGuest}
+                    className="w-full flex items-center justify-center gap-2 rounded-2xl py-3 px-5 text-xs sm:text-sm font-semibold bg-slate-100 hover:bg-slate-200/80 dark:bg-white/5 dark:hover:bg-white/10 text-slate-800 dark:text-slate-200 border border-slate-200/80 dark:border-white/10 active:scale-95 transition-all cursor-pointer"
+                  >
+                    <UserCheck className="w-4 h-4 text-emerald-500" />
+                    <span>Continue as Guest</span>
+                  </button>
+                  
+                  <p className="text-[11px] text-slate-400 dark:text-slate-500 leading-tight">
+                    Guest scan history is kept on this device only.
+                  </p>
+                </div>
+              )}
+            </div>
+          </div>
+        </motion.div>
+      </div>
+    </motion.div>
+  );
+}

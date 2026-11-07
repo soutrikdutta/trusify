@@ -1,1 +1,328 @@
-aW1wb3J0IFJlYWN0LCB7IHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBtb3Rpb24sIEFuaW1hdGVQcmVzZW5jZSB9IGZyb20gJ2ZyYW1lci1tb3Rpb24nOwppbXBvcnQgeyBTaGllbGRDaGVjaywgUmFkaW8sIEhpc3RvcnksIFN1biwgTW9vbiwgTG9nSW4sIExvZ091dCwgU3BhcmtsZXMsIFVzZXIsIFVzZXJDaGVjayB9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7CmltcG9ydCB7IHVzZVRoZW1lIH0gZnJvbSAnLi4vY29udGV4dC9UaGVtZUNvbnRleHQnOwppbXBvcnQgeyB1c2VBdXRoIH0gZnJvbSAnLi4vY29udGV4dC9BdXRoQ29udGV4dCc7CmltcG9ydCB7IHNwcmluZyB9IGZyb20gJy4vdWknOwoKZnVuY3Rpb24gR29vZ2xlSWNvbih7IGNsYXNzTmFtZSA9ICd3LTMuNSBoLTMuNScgfSkgewogIHJldHVybiAoCiAgICA8c3ZnIGNsYXNzTmFtZT17Y2xhc3NOYW1lfSB2aWV3Qm94PSIwIDAgMjQgMjQiPgogICAgICA8cGF0aAogICAgICAgIGZpbGw9IiM0Mjg1RjQiCiAgICAgICAgZD0iTTIyLjU2IDEyLjI1YzAtLjc4LS4wNy0xLjUzLS4yLTIuMjVIMTJ2NC4yNmg1LjkyYy0uMjYgMS4zNy0xLjA0IDIuNTMtMi4yMSAzLjMxdjIuNzdoMy41N2MyLjA4LTEuOTIgMy4yOC00Ljc0IDMuMjgtOC4wOXoiCiAgICAgIC8+CiAgICAgIDxwYXRoCiAgICAgICAgZmlsbD0iIzM0QTg1MyIKICAgICAgICBkPSJNMTIgMjNjMi45NyAwIDUuNDYtLjk4IDcuMjgtMi42NmwtMy41Ny0yLjc3Yy0uOTguNjYtMi4yMyAxLjA2LTMuNzEgMS4wNi0yLjg2IDAtNS4yOS0xLjkzLTYuMTYtNC41M0gyLjE4djIuODRDMy45OSAyMC41MyA3LjcgMjMgMTIgMjN6IgogICAgICAvPgogICAgICA8cGF0aAogICAgICAgIGZpbGw9IiNGQkJDMDUiCiAgICAgICAgZD0iTTUuODQgMTQuMDljLS4yMi0uNjYtLjM1LTEuMzYtLjM1LTIuMDlzLjEzLTEuNDMuMzUtMi4wOVY3LjA2SDIuMThDMS40MyA4LjU1IDEgMTAuMjIgMSAxMnMuNDMgMy40NSAxLjE4IDQuOTRsMi44NS0yLjIyLjgxLS42M3oiCiAgICAgIC8+CiAgICAgIDxwYXRoCiAgICAgICAgZmlsbD0iI0VBNDMzNSIKICAgICAgICBkPSJNMTIgNS4zOGMxLjYyIDAgMy4wNi41NiA0LjIxIDEuNjRsMy4xNS0zLjE1QzE3LjQ1IDIuMDkgMTQuOTcgMSAxMiAxIDcuNyAxIDMuOTkgMy40NyAyLjE4IDcuMDZsMy42NiAyLjg0Yy44Ny0yLjYgMy4zLTQuNTIgNi4xNi00LjUyeiIKICAgICAgLz4KICAgIDwvc3ZnPgogICk7Cn0KCmNvbnN0IFRBQlMgPSBbCiAgeyBpZDogJ2luc3BlY3RvcicsIGxhYmVsOiAnSW5zcGVjdG9yJywgaWNvbjogU2hpZWxkQ2hlY2sgfSwKICB7IGlkOiAnZmVlZCcsIGxhYmVsOiAnVGhyZWF0IEludGVsJywgaWNvbjogUmFkaW8gfSwKICB7IGlkOiAnaGlzdG9yeScsIGxhYmVsOiAnSGlzdG9yeScsIGljb246IEhpc3RvcnkgfQpdOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gSGVhZGVyKHsgYWN0aXZlVGFiLCBvblRhYkNoYW5nZSwgc2NhbkNvdW50LCBvbk9wZW5MYW5kaW5nIH0pIHsKICBjb25zdCB7IGlzRGFyaywgdG9nZ2xlVGhlbWUgfSA9IHVzZVRoZW1lKCk7CiAgY29uc3QgeyB1c2VyLCBpc0d1ZXN0LCBsb2dvdXQsIGxvZ2luV2l0aEdvb2dsZSB9ID0gdXNlQXV0aCgpOwogIGNvbnN0IFttZW51T3Blbiwgc2V0TWVudU9wZW5dID0gdXNlU3RhdGUoZmFsc2UpOwoKICByZXR1cm4gKAogICAgPGhlYWRlciBjbGFzc05hbWU9InN0aWNreSB0b3AtMCB6LTMwIHB4LTMgcHQtMyBzbTpweC02IHNtOnB0LTUiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0iZ2xhc3MgbXgtYXV0byBmbGV4IG1heC13LTZ4bCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIGdhcC0yIHJvdW5kZWQtWzI2cHhdIHB4LTIuNSBweS0yIHNtOmdhcC0zIHNtOnB4LTMiPgogICAgICAgIHsvKiBCcmFuZCAmIExvZ28gKi99CiAgICAgICAgPGRpdiAKICAgICAgICAgIG9uQ2xpY2s9e29uT3BlbkxhbmRpbmd9CiAgICAgICAgICBjbGFzc05hbWU9ImZsZXggbWluLXctMCBpdGVtcy1jZW50ZXIgZ2FwLTIuNSBwbC0xIHNtOmdhcC0zIHNtOnBsLTIgY3Vyc29yLXBvaW50ZXIgZ3JvdXAiCiAgICAgICAgICB0aXRsZT0iT3BlbiBXZWxjb21lICYgU2lnbi1JbiBQYWdlIgogICAgICAgID4KICAgICAgICAgIDxtb3Rpb24uZGl2CiAgICAgICAgICAgIHdoaWxlSG92ZXI9e3sgc2NhbGU6IDEuMDggfX0KICAgICAgICAgICAgd2hpbGVUYXA9e3sgc2NhbGU6IDAuOTQgfX0KICAgICAgICAgICAgdHJhbnNpdGlvbj17c3ByaW5nfQogICAgICAgICAgICBjbGFzc05hbWU9InJlbGF0aXZlIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIHNocmluay0wIgogICAgICAgICAgPgogICAgICAgICAgICA8aW1nIAogICAgICAgICAgICAgIHNyYz0iL3RydXNpZnktaWNvbi5zdmciIAogICAgICAgICAgICAgIGFsdD0iVHJ1c2lmeSIgCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoLTggdy04IHNtOmgtOSBzbTp3LTkgb2JqZWN0LWNvbnRhaW4gZHJvcC1zaGFkb3ctc20gc2VsZWN0LW5vbmUiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L21vdGlvbi5kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWluLXctMCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzE1cHhdIGZvbnQtYmxhY2sgdXBwZXJjYXNlIGxlYWRpbmctdGlnaHQgdHJhY2tpbmctd2lkZXIgc206dGV4dC1iYXNlIGZvbnQtc2FucyBncm91cC1ob3Zlcjp0ZXh0LWJsdWUtNTAwIHRyYW5zaXRpb24tY29sb3JzIiBzdHlsZT17eyBjb2xvcjogJ3ZhcigtLXRleHQtcHJpbWFyeSknIH19PgogICAgICAgICAgICAgICAgVFJVU0lGWQogICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0iaGlkZGVuIHRydW5jYXRlIHRleHQtWzEwcHhdIGZvbnQtbWVkaXVtIHNtOmJsb2NrIiBzdHlsZT17eyBjb2xvcjogJ3ZhcigtLXRleHQtZmFpbnQpJyB9fT4KICAgICAgICAgICAgICBTYWZlIGFuZCBUcnVzdGlmaWVkCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgoKICAgICAgICB7LyogVGFiIE5hdmlnYXRpb24gLSBPbmx5IHZpc2libGUgd2hlbiBpbnNpZGUgZGFzaGJvYXJkICovfQogICAgICAgIHthY3RpdmVUYWIgIT09ICdsYW5kaW5nJyAmJiAoCiAgICAgICAgICA8bmF2IGNsYXNzTmFtZT0ic2VnbWVudGVkIGZsZXggaXRlbXMtY2VudGVyIGdhcC0wLjUgcm91bmRlZC0yeGwgcC0xIj4KICAgICAgICAgICAge1RBQlMubWFwKCh0YWIpID0+IHsKICAgICAgICAgICAgICBjb25zdCBJY29uID0gdGFiLmljb247CiAgICAgICAgICAgICAgY29uc3QgYWN0aXZlID0gYWN0aXZlVGFiID09PSB0YWIuaWQ7CiAgICAgICAgICAgICAgcmV0dXJuICgKICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAga2V5PXt0YWIuaWR9CiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uVGFiQ2hhbmdlKHRhYi5pZCl9CiAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWw9e3RhYi5sYWJlbH0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGN1cnNvci1wb2ludGVyIGl0ZW1zLWNlbnRlciBnYXAtMS41IHJvdW5kZWQteGwgcHgtMi41IHB5LTEuNSB0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgdHJhbnNpdGlvbi1jb2xvcnMgc206cHgtMy41IHNtOnB5LTIgc206dGV4dC1zbSIKICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICBjb2xvcjogYWN0aXZlID8gJ3ZhcigtLXNlZ21lbnQtdGV4dC1hY3RpdmUpJyA6ICd2YXIoLS1zZWdtZW50LXRleHQtbXV0ZWQpJwogICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7YWN0aXZlICYmICgKICAgICAgICAgICAgICAgICAgICA8bW90aW9uLmRpdgogICAgICAgICAgICAgICAgICAgICAgbGF5b3V0SWQ9ImFjdGl2ZVRhYkVsZXZhdGlvbiIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ic2VnbWVudC1waWxsIGFic29sdXRlIGluc2V0LTAgcm91bmRlZC14bCIKICAgICAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb249e3sgdHlwZTogJ3NwcmluZycsIHN0aWZmbmVzczogNDUwLCBkYW1waW5nOiAzNSB9fQogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0icmVsYXRpdmUgei0xMCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41Ij4KICAgICAgICAgICAgICAgICAgICA8SWNvbiBjbGFzc05hbWU9ImgtMy41IHctMy41IHNtOmgtNCBzbTp3LTQiIC8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJoaWRkZW4gc206aW5saW5lIj57dGFiLmxhYmVsfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InNtOmhpZGRlbiI+e3RhYi5sYWJlbC5zcGxpdCgnICcpWzBdfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICk7CiAgICAgICAgICAgIH0pfQogICAgICAgICAgPC9uYXY+CiAgICAgICAgKX0KCiAgICAgICAgey8qIEFjdGlvbnMgKi99CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgc206Z2FwLTIuNSI+CiAgICAgICAgICB7dXNlciA/ICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIj4KICAgICAgICAgICAgICA8bW90aW9uLmJ1dHRvbgogICAgICAgICAgICAgICAgd2hpbGVUYXA9e3sgc2NhbGU6IDAuOTcgfX0KICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldE1lbnVPcGVuKCFtZW51T3Blbil9CiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xLjUgcHgtMiBweS0xIHJvdW5kZWQteGwgYmctc2xhdGUtMTAwIGRhcms6Ymctd2hpdGUvNSBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMCBkYXJrOmJvcmRlci13aGl0ZS8xMCBob3Zlcjpib3JkZXItc2xhdGUtMzAwIGRhcms6aG92ZXI6Ym9yZGVyLXdoaXRlLzIwIHRyYW5zaXRpb24tYWxsIGN1cnNvci1wb2ludGVyIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIHthc3VzZXIucGhvdG9VUkwgPyAoCiAgICAgICAgICAgICAgICAgIDxpbWcgCiAgICAgICAgICAgICAgICAgICAgc3JjPXt1c2VyLnBob3RvVVJMfSAKICAgICAgICAgICAgICAgICAgICBhbHQ9e3VzZXIuZGlzcGxheU5hbWUgfHwgJ1VzZXInfSAKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctNiBoLTYgcm91bmRlZC1mdWxsIG9iamVjdC1jb3ZlciByaW5nLTEgcmluZy1ibHVlLTUwMCIgCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICApIDogKAogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy02IGgtNiByb3VuZGVkLWZ1bGwgYmctYmx1ZS01MDAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgdGV4dC13aGl0ZSBmb250LWJvbGQgdGV4dC14cyI+CiAgICAgICAgICAgICAgICAgICAge3VzZXIuZW1haWxbMF0udG9VcHBlckNhc2UoKX0KICAgICAgICAgICAgICAgICAgPC9kaXZ+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJoaWRkZW4gc206aW5saW5lIHRleHQteHMgZm9udC1tZWRpdW0gdGV4dC1zbGF0ZS03MDAgZGFyazp0ZXh0LXNsYXRlLTIwMCBtYXgtdy1bOTBweF0gdHJ1bmNhdGUiPgogICAgICAgICAgICAgICAgICB7dXNlci5kaXNwbGF5TmFtZSB8fCB1c2VyLmVtYWlsLnNwbGl0KCdAJylbMF19CiAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgPC9tb3Rpb24uYnV0dG9uPgoKICAgICAgICAgICAgICA8QW5pbWF0ZVByZXNlbmNlPgogICAgICAgICAgICAgICAge21lbnVPcGVuICYmICgKICAgICAgICAgICAgICAgICAgPG1vdGlvbi5kaXYKICAgICAgICAgICAgICAgICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHk6IDgsIHNjYWxlOiAwLjk1IH19CiAgICAgICAgICAgICAgICAgICAgYW5pbWF0ZT17eyBvcGFjaXR5OiAxLCB5OiAwLCBzY2FsZTogMSB9fQogICAgICAgICAgICAgICAgICAgIGV4aXQ9e3sgb3BhY2l0eTogMCwgeTogOCwgc2NhbGU6IDAuOTUgfX0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIHJpZ2h0LTAgbXQtMiB3LTU2IHBhZGRpbmctMS41IHJvdW5kZWQtMnhsIGJnLXdoaXRlIGRhcms6Ymctc2xhdGUtOTAwIGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGRhcms6Ym9yZGVyLXNsYXRlLTgwMCBzaGFkb3cteGwgei01MCIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJweC0zIHB5LTIgYm9yZGVyLWIgYm9yZGVyLXNsYXRlLTEwMCBkYXJrOmJvcmRlci1zbGF0ZS04MDAiPgogICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQteHMgdGV4dC1zbGF0ZS04MDAgZGFyazp0ZXh0LXNsYXRlLTIwMCB0cnVuY2F0ZSI+e3VzZXIuZGlzcGxheU5hbWUgfHwgJ0dvb2dsZSBBY2NvdW50J308L3A+CiAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LVsxMC41cHhdIHRleHQtc2xhdGUtNDAwIHRydW5jYXRlIj57dXNlci5lbWFpbH08L3A+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4geyBzZXRNZW51T3BlbihmYWxzZSk7IG9uVGFiQ2hhbmdlKCdoaXN0b3J5Jyk7IH19CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBweC0zIHB5LTIgcm91bmRlZC14bCBob3ZlcjpiZy1zbGF0ZS01MCBkYXJrOmhvdmVyOmJnLXdoaXRlLzUgdGV4dC1zbGF0ZS03MDAgZGFyazp0ZXh0LXNsYXRlLTMwMCB0ZXh0LWxlZnQgY3Vyc29yLXBvaW50ZXIiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPEhpc3RvcnkgY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSB0ZXh0LWJsdWUtNTAwIiAvPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4+Q2xvdWQgU2NhbiBIaXN0b3J5PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHsgc2V0TWVudU9wZW4oZmFsc2UpOyBsb2dvdXQoKTsgfX0KICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGZsZXggaXRlbXMtY2VudGVyIGdhcC0yIHB4LTMgcHktMiByb3VuZGVkLXhsIGhvdmVyOmJnLXJvc2UtNTAgZGFyazpob3ZlcjpiZy1yb3NlLTUwMC8xMCB0ZXh0LXJvc2UtNjAwIGRhcms6dGV4dC1yb3NlLTQwMCB0ZXh0LWxlZnQgY3Vyc29yLXBvaW50ZXIiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPExvZ091dCBjbGFzc05hbWU9InctMy41IGgtMy41IiAvPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4+U2lnbiBPdXQ8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICAgICAgIDwvbW90aW9uLmRpdj4KICAgICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICAgIDwvQW5pbWF0ZVByZXNlbmNlPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApIDogaXNHdWVzdCA/ICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSI+CiAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IG9uVGFiQ2hhbmdlKCdoaXN0b3J5Jyl9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEuNSBweC0yLjUgc206cHgtMyBweS0xLjUgcm91bmRlZC14bCBiZy1zbGF0ZS0xMDAgZGFyazpiZy13aGl0ZS81IGJvcmRlciBib3JkZXItc2xhdGUtMjAwIGRhcms6Ym9yZGVyLXdoaXRlLzEwIHRleHQtc2xhdGUtNzAwIGRhcms6dGV4dC1zbGF0ZS0zMDAgdGV4dC14cyBmb250LXNlbWlib2xkIGhvdmVyOmJvcmRlci1lbWVyYWxkLTUwMC80MCB0cmFuc2l0aW9uLWFsbCBjdXJzb3ItcG9pbnRlciIKICAgICAgICAgICAgICAgICAgdGl0bGU9Ikd1ZXN0IERldmljZSBIaXN0b3J5IgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8VXNlckNoZWNrIGNsYXNzTmFtZT0idy0zLjUgaC0zLjUgdGV4dC1lbWVyYWxkLTUwMCIgLz4KICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJoaWRkZW4gc206aW5saW5lIj5HdWVzdCBEZXZpY2U8L3NwYW4+CiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgIDxidXR0b24KICAgICAgICAgICAgICAgICAgb25DbGljaz17b25PcGVuTGFuZGluZ30KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHB4LTIuNSBzbTpweC0zIHB5LTEuNSByb3VuZGVkLXhsIGJnLXdoaXRlIGhvdmVyOmJnLXNsYXRlLTUwIHRleHQtc2xhdGUtOTAwIHNoYWRvdy14cyBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMC85MCBkYXJrOmJvcmRlci13aGl0ZS8yMCB0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tYWxsIGN1cnNvci1wb2ludGVyIgogICAgICAgICAgICAgICAgICB0aXRsZT0iU2lnbiBpbiB3aXRoIEdvb2dsZSB0byBzeW5jIHNjYW5zIGFjcm9zcyBkZXZpY2VzIgogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8R29vZ2xlSWNvbiBjbGFzc05hbWU9InctMy41IGgtMy41IHNocmluay0wIiAvPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImhpZGRlbiBzbTppbmxpbmUiPlNpZ24gaW48L3NwYW4+CiAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICBvbkNsaWNrPXtvbk9wZW5MYW5kaW5nfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMS41IHB4LTIuNSBzbTpweC0zIHB5LTEuNSByb3VuZGVkLXhsIGJnLXdoaXRlIGhvdmVyOmJnLXNsYXRlLTUwIHRleHQtc2xhdGUtOTAwIHNoYWRvdy14cyBib3JkZXIgYm9yZGVyLXNsYXRlLTIwMC85MCBkYXJrOmJvcmRlci13aGl0ZS8yMCB0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgYWN0aXZlOnNjYWxlLTk1IHRyYW5zaXRpb24tYWxsIGN1cnNvci1wb2ludGVyIgogICAgICAgICAgICAgICAgdGl0bGU9IlNpZ24gaW4gd2l0aCBHb29nbGUiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPEdvb2dsZUljb24gY2xhc3NOYW1lPSJ3LTMuNSBoLTMuNSBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0iaGlkZGVuIHNtOmlubGluZSI+U2lnbiBpbjwvc3Bhbj4KICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgKQogICAgICAgICAgKX0KCiAgICAgICAgICA8bW90aW9uLmJ1dHRvbgogICAgICAgICAgICB3aGlsZUhvdmVyPXt7IHNjYWxlOiAxLjA3LCByb3RhdGU6IDggfX0KICAgICAgICAgICAgd2hpbGVUYXA9e3sgc2NhbGU6IDAuOTAgfX0KICAgICAgICAgICAgdHJhbnNpdGlvbj17c3ByaW5nfQogICAgICAgICAgICBvbkNsaWNrPXt0b2dnbGVUaGVtZX0KICAgICAgICAgICAgYXJpYS1sYWJlbD0iVG9nZ2xlIGFwcGVhcmFuY2UiCiAgICAgICAgICAgIGNsYXNzTmFtZT0iZ3JpZCBoLTkgdy05IHNocmluay0wIHBsYWNlLWl0ZW1zLWNlbnRlciByb3VuZGVkLVsxM3B4XSBzbTpoLTEwIHNtOnctMTAiCiAgICAgICAgICAgIHN0eWxlPXt7IGJhY2tncm91bmQ6ICd2YXIoLS1waWxsLWJnKScsIGJvcmRlcjogJzFweCBzb2xpZCB2YXIoLS1waWxsLWJvcmRlciknLCBjb2xvcjogaXNEYXJrID8gJyNmY2QzNGQnIDogJyM0NzU1NjknIH19CiAgICAgICAgICA+CiAgICAgICAgICAgIHtpc0RhcmsgPyA8U3VuIGNsYXNzTmFtZT0iaC00IHctNCIgLz4gOiA8TW9vbiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+fQogICAgICAgICAgPC9tb3Rpb24uYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvaGVhZGVyPgogICk7Cn0=
+import React, { useState, useRef, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ShieldCheck, Radio, History, Sun, Moon, LogIn, LogOut, Sparkles, User, UserCheck } from 'lucide-react';
+import { useTheme } from '../context/ThemeContext';
+import { useAuth } from '../context/AuthContext';
+import { spring } from './ui';
+
+function GoogleIcon({ className = 'w-3.5 h-3.5' }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24">
+      <path
+        fill="#4285F4"
+        d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+      />
+      <path
+        fill="#34A853"
+        d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+      />
+      <path
+        fill="#FBBC05"
+        d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"
+      />
+      <path
+        fill="#EA4335"
+        d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"
+      />
+    </svg>
+  );
+}
+
+const TABS = [
+  { id: 'inspector', label: 'Inspector', icon: ShieldCheck },
+  { id: 'feed', label: 'Threat Intel', icon: Radio },
+  { id: 'history', label: 'History', icon: History }
+];
+
+export default function Header({ activeTab, onTabChange, scanCount, onOpenLanding }) {
+  const { isDark, toggleTheme } = useTheme();
+  const { user, isGuest, logout, loginWithGoogle } = useAuth();
+  const [menuOpen, setMenuOpen] = useState(false);
+  const menuRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (menuRef.current && !menuRef.current.contains(event.target)) {
+        setMenuOpen(false);
+      }
+    }
+    if (menuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [menuOpen]);
+
+  return (
+    <header className="sticky top-0 z-30 px-3 pt-3 sm:px-6 sm:pt-5">
+      <div className="glass mx-auto flex max-w-6xl items-center justify-between gap-2 rounded-[26px] px-2.5 py-2 sm:gap-3 sm:px-3">
+        {/* Brand & Logo */}
+        <div 
+          onClick={onOpenLanding}
+          className="flex min-w-0 items-center gap-2.5 pl-1 sm:gap-3 sm:pl-2 cursor-pointer group"
+          title="Open Welcome & Sign-In Page"
+        >
+          <motion.div
+            whileHover={{ scale: 1.08 }}
+            whileTap={{ scale: 0.94 }}
+            transition={spring}
+            className="relative flex items-center justify-center shrink-0"
+          >
+            <img 
+              src="/trusify-icon.svg" 
+              alt="Trusify" 
+              className="h-8 w-8 sm:h-9 sm:w-9 object-contain drop-shadow-sm select-none"
+            />
+          </motion.div>
+          <div className="min-w-0">
+            <div className="flex items-center gap-1.5">
+              <span className="text-[15px] font-black uppercase leading-tight tracking-wider sm:text-base font-sans group-hover:text-blue-500 transition-colors" style={{ color: 'var(--text-primary)' }}>
+                TRUSIFY
+              </span>
+            </div>
+            <p className="hidden truncate text-[10px] font-medium sm:block" style={{ color: 'var(--text-faint)' }}>
+              Safe and Trustified
+            </p>
+          </div>
+        </div>
+
+        {/* Tab Navigation (Desktop & Tablet) - Only visible when inside dashboard */}
+        {activeTab !== 'landing' && (
+          <nav className="segmented hidden sm:flex items-center gap-0.5 rounded-2xl p-1 shrink-0">
+            {TABS.map((tab) => {
+              const Icon = tab.icon;
+              const active = activeTab === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  onClick={() => onTabChange(tab.id)}
+                  aria-label={tab.label}
+                  className="relative flex cursor-pointer items-center gap-1.5 rounded-xl px-2.5 py-1.5 text-[11px] font-medium transition-colors sm:px-3.5 sm:text-xs"
+                  style={{ color: active ? 'var(--text-primary)' : 'var(--text-muted)' }}
+                >
+                  {active && (
+                    <motion.span
+                      layoutId="navThumb"
+                      className="segmented-thumb absolute inset-0 rounded-xl"
+                      transition={spring}
+                    />
+                  )}
+                  <span className="relative z-10 flex items-center gap-1.5">
+                    <Icon className="h-3.5 w-3.5" strokeWidth={active ? 2.4 : 2} />
+                    <span>{tab.label}</span>
+                    {tab.id === 'history' && scanCount > 0 && (
+                      <span
+                        className="rounded-full px-1.5 font-mono text-[9px] font-bold"
+                        style={{ background: 'var(--accent-soft)', color: 'var(--accent)' }}
+                      >
+                        {scanCount}
+                      </span>
+                    )}
+                  </span>
+                </button>
+              );
+            })}
+          </nav>
+        )}
+
+        {/* Right Section: User Profile & Theme Switcher */}
+        <div className="flex items-center gap-1.5 sm:gap-2">
+          {activeTab !== 'landing' && (
+            user ? (
+              <div className="relative" ref={menuRef}>
+                <button
+                  type="button"
+                  onClick={() => setMenuOpen((p) => !p)}
+                  className="flex items-center gap-2 p-0.5 sm:px-2 sm:py-1 rounded-full sm:rounded-2xl bg-white/70 dark:bg-white/10 border border-slate-200/90 dark:border-white/20 hover:border-blue-500/50 shadow-sm active:scale-95 transition-all cursor-pointer"
+                  title={`${user.displayName || user.email} (Google Account)`}
+                >
+                  {user.photoURL ? (
+                    <img 
+                      src={user.photoURL} 
+                      alt={user.displayName || 'Google Profile'} 
+                      referrerPolicy="no-referrer"
+                      className="w-8 h-8 sm:w-8.5 sm:h-8.5 rounded-full object-cover ring-2 ring-blue-500/50 shadow-xs shrink-0" 
+                    />
+                  ) : (
+                    <div className="w-8 h-8 sm:w-8.5 sm:h-8.5 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center text-xs shrink-0 shadow-xs ring-2 ring-blue-500/50">
+                      {user.email?.[0]?.toUpperCase() || 'U'}
+                    </div>
+                  )}
+                  <span className="hidden md:inline text-xs font-semibold text-slate-800 dark:text-slate-200 max-w-[100px] truncate">
+                    {user.displayName?.split(' ')[0] || 'Profile'}
+                  </span>
+                </button>
+
+                <AnimatePresence>
+                  {menuOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, scale: 0.95, y: 6 }}
+                      animate={{ opacity: 1, scale: 1, y: 0 }}
+                      exit={{ opacity: 0, scale: 0.95, y: 6 }}
+                      className="absolute right-0 mt-2 w-52 rounded-2xl bg-white dark:bg-slate-900 shadow-xl border border-slate-200 dark:border-white/10 p-2 z-50 text-xs"
+                    >
+                      <div className="px-3 py-2 border-b border-slate-100 dark:border-white/5">
+                        <p className="font-bold text-slate-900 dark:text-white truncate">{user.displayName || 'Google Account'}</p>
+                        <p className="font-mono text-[10.5px] text-slate-400 truncate">{user.email}</p>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => { setMenuOpen(false); onTabChange('history'); }}
+                        className="w-full flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 text-slate-700 dark:text-slate-300 text-left cursor-pointer"
+                      >
+                        <History className="w-3.5 h-3.5 text-blue-500" />
+                        <span>Cloud Scan History</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={async () => {
+                          setMenuOpen(false);
+                          await logout();
+                          onOpenLanding?.();
+                        }}
+                        className="w-full flex items-center gap-2 px-3 py-2 rounded-xl hover:bg-rose-50 dark:hover:bg-rose-500/10 text-rose-600 dark:text-rose-400 text-left cursor-pointer font-medium"
+                      >
+                        <LogOut className="w-3.5 h-3.5" />
+                        <span>Sign Out</span>
+                      </button>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            ) : isGuest ? (
+              <div className="relative" ref={menuRef}>
+                <button
+                  type="button"
+                  onClick={() => setMenuOpen((p) => !p)}
+                  className="flex h-9 sm:h-10 items-center gap-2 px-3.5 sm:px-4 rounded-full sm:rounded-2xl bg-white/70 dark:bg-white/10 border border-slate-200/90 dark:border-white/20 hover:border-emerald-500/50 shadow-xs active:scale-95 transition-all cursor-pointer"
+                  title="Guest Device - Click for options"
+                >
+                  <UserCheck className="w-4 h-4 sm:w-4.5 sm:h-4.5 text-emerald-500 shrink-0" />
+                  <span className="text-xs sm:text-[13px] font-semibold text-slate-800 dark:text-slate-200">
+                    Guest Device
+                  </span>
+                </button>
+
+                <AnimatePresence>
+                  {menuOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, scale: 0.95, y: 6 }}
+                      animate={{ opacity: 1, scale: 1, y: 0 }}
+                      exit={{ opacity: 0, scale: 0.95, y: 6 }}
+                      className="absolute right-0 mt-2 w-60 sm:w-64 rounded-2xl bg-white dark:bg-slate-900 shadow-xl border border-slate-200 dark:border-white/10 p-2.5 z-50 text-xs"
+                    >
+                      <div className="px-3.5 py-2.5 border-b border-slate-100 dark:border-white/5 mb-1.5">
+                        <div className="flex items-center gap-2 text-slate-900 dark:text-white font-bold text-[13px]">
+                          <UserCheck className="w-4 h-4 text-emerald-500 shrink-0" />
+                          <span>Guest Device</span>
+                        </div>
+                        <p className="font-mono text-[11px] text-slate-400 mt-0.5">Stored locally on this device</p>
+                      </div>
+                      <button
+                        type="button"
+                        onClick={() => { setMenuOpen(false); onTabChange('history'); }}
+                        className="w-full flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 text-slate-700 dark:text-slate-300 text-left cursor-pointer transition-colors text-xs font-medium"
+                      >
+                        <History className="w-4 h-4 text-emerald-500 shrink-0" />
+                        <span>Device Scan History</span>
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => { setMenuOpen(false); onOpenLanding?.(); }}
+                        className="w-full flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl hover:bg-slate-50 dark:hover:bg-white/5 text-slate-700 dark:text-slate-300 text-left cursor-pointer transition-colors text-xs font-medium"
+                      >
+                        <GoogleIcon className="w-4 h-4 shrink-0" />
+                        <span>Sign In with Google</span>
+                      </button>
+                      <div className="my-1.5 border-t border-slate-100 dark:border-white/5" />
+                      <button
+                        type="button"
+                        onClick={async () => {
+                          setMenuOpen(false);
+                          await logout();
+                          onOpenLanding?.();
+                        }}
+                        className="w-full flex items-center gap-2.5 px-3.5 py-2.5 rounded-xl bg-rose-50/70 hover:bg-rose-100 dark:bg-rose-500/10 dark:hover:bg-rose-500/20 text-rose-600 dark:text-rose-400 text-left cursor-pointer font-semibold transition-colors text-xs"
+                      >
+                        <LogOut className="w-4 h-4 shrink-0" />
+                        <span>Sign Out</span>
+                      </button>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            ) : (
+              <button
+                onClick={onOpenLanding}
+                className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl bg-white hover:bg-slate-50 text-slate-900 shadow-xs border border-slate-200/90 dark:border-white/20 text-xs font-semibold active:scale-95 transition-all cursor-pointer"
+                title="Sign in with Google"
+              >
+                <GoogleIcon className="w-3.5 h-3.5 shrink-0" />
+                <span className="hidden sm:inline">Sign in</span>
+              </button>
+            )
+          )}
+
+          <motion.button
+            whileHover={{ scale: 1.07, rotate: 8 }}
+            whileTap={{ scale: 0.9 }}
+            transition={spring}
+            onClick={toggleTheme}
+            aria-label="Toggle appearance"
+            className="grid h-9 w-9 shrink-0 place-items-center rounded-[13px] sm:h-10 sm:w-10"
+            style={{ background: 'var(--pill-bg)', border: '1px solid var(--pill-border)', color: isDark ? '#fcd34d' : '#475569' }}
+          >
+            {isDark ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+          </motion.button>
+        </div>
+      </div>
+
+      {/* Mobile Floating Bottom Dock (Only when in dashboard on small screens) */}
+      {activeTab !== 'landing' && (
+        <aside className="sm:hidden fixed bottom-3 inset-x-3 z-40 flex justify-center pointer-events-none">
+          <nav 
+            aria-label="Mobile Navigation"
+            className="pointer-events-auto glass w-full max-w-sm flex items-center justify-around gap-1 rounded-2xl p-1.5 shadow-2xl border border-slate-200/90 dark:border-white/15 backdrop-blur-2xl"
+          >
+            {TABS.map((tab) => {
+              const Icon = tab.icon;
+              const active = activeTab === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  type="button"
+                  onClick={() => onTabChange(tab.id)}
+                  className="relative flex-1 flex flex-col items-center justify-center py-1.5 px-2 text-[11px] font-medium transition-colors rounded-xl cursor-pointer"
+                  style={{ color: active ? 'var(--text-primary)' : 'var(--text-muted)' }}
+                >
+                  {active && (
+                    <motion.span
+                      layoutId="mobileNavThumb"
+                      className="segmented-thumb absolute inset-0 rounded-xl"
+                      transition={spring}
+                    />
+                  )}
+                  <span className="relative z-10 flex flex-col items-center gap-0.5">
+                    <span className="relative">
+                      <Icon className="h-4 w-4" strokeWidth={active ? 2.4 : 2} />
+                      {tab.id === 'history' && scanCount > 0 && (
+                        <span
+                          className="absolute -top-1 -right-3 rounded-full px-1 font-mono text-[8.5px] font-bold"
+                          style={{ background: 'var(--accent-soft)', color: 'var(--accent)' }}
+                        >
+                          {scanCount}
+                        </span>
+                      )}
+                    </span>
+                    <span className="tracking-tight text-[10.5px]">{tab.label}</span>
+                  </span>
+                </button>
+              );
+            })}
+          </nav>
+        </aside>
+      )}
+    </header>
+  );
+}
