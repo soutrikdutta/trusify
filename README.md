@@ -140,47 +140,6 @@ Every scanned destination starts with a baseline score of 100 points. Penalties 
 * 40 to 59 (Suspicious): Multiple risk indicators detected. Entering credentials or downloading files is not recommended.
 * 0 to 39 (Dangerous): Confirmed malware, active phishing, or severe brand impersonation. Access should be avoided.
 
-## Local Development and Setup
-
-To run the application locally:
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/soutrikdutta/trusify.git
-cd trusify
-```
-
-### 2. Configure Environment Variables
-Create a `.env` file in the project root:
-```bash
-cp .env.example .env
-```
-Provide the required API keys:
-```env
-PORT=5000
-GEMINI_API_KEY=your_gemini_api_key_here
-VIRUSTOTAL_API_KEY=your_virustotal_api_key_here
-SAFE_BROWSING_API_KEY=your_google_safe_browsing_key_here
-```
-
-### 3. Install Dependencies and Run
-
-Start Backend Service:
-```bash
-cd server
-npm install
-npm start
-```
-
-Start Frontend Application:
-```bash
-cd client
-npm install
-npm run dev
-```
-
-The frontend will be available at `http://localhost:3000`.
-
 ## Security and Privacy Policy
 
 * Secure Key Storage: All third-party API credentials remain on the server and are excluded from version control.
